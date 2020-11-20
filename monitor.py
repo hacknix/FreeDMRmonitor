@@ -606,11 +606,29 @@ def process_message(_bmessage):
         opbfilter = get_opbf()
         if p[0] == 'GROUP VOICE' and p[2] != 'TX' and p[5] not in opbfilter:
             if p[1] == 'END':
-                log_message = '{} {} {}   SYS: {:8.8s} SRC: {:9.9s}; {:9.9s} TS: {} TGID: {:7.7s} {:17.17s} SUB: {:9.9s}; {:18.18s} Time: {}s '.format(_now[10:19], p[0][6:], p[1], p[3], p[5], alias_call(int(p[5]), subscriber_ids), p[7],p[8],alias_tgid(int(p[8]),talkgroup_ids), p[6], alias_short(int(p[6]), subscriber_ids), int(float(p[9])))
+
+                if (int(p[8]) == 9) and (int(p[7]) == 2) and BRIDGES:
+                    for _bridge in BRIDGES:
+                        for _bridgesystem in BRIDGES[_bridge]:
+                            if p[3] == _bridgesystem['SYSTEM'] and _bridgesystem['ACTIVE'] == True and int_id(_bridgesystem['TGID']) == 9:
+                                _refdest = str(_bridge[1:])
+                                print(_refdest)
+                                log_message = '{} {} {}   SYS: {:8.8s} SRC: {:9.9s}; {:9.9s} TS: {} TGID: {:7.7s} {:17.17s} SUB: {:9.9s}; {:18.18s} Time: {}s '.format(_now[10:19], p[0][6:], p[1], p[3], p[5], alias_call(int(p[5]), subscriber_ids), p[7],_refdest,alias_tgid(int(_refdest),talkgroup_ids)+" (Rewritten to: 9)", p[6], alias_short(int(p[6]), subscriber_ids), int(float(p[9])))
+                else:
+                    log_message = '{} {} {}   SYS: {:8.8s} SRC: {:9.9s}; {:9.9s} TS: {} TGID: {:7.7s} {:17.17s} SUB: {:9.9s}; {:18.18s} Time: {}s '.format(_now[10:19], p[0][6:], p[1], p[3], p[5], alias_call(int(p[5]), subscriber_ids), p[7],p[8],alias_tgid(int(p[8]),talkgroup_ids), p[6], alias_short(int(p[6]), subscriber_ids), int(float(p[9])))
                 # log only to file if system is NOT OpenBridge event (not logging open bridge system, name depends on your OB definitions) AND transmit time is LONGER as 2sec (make sense for very short transmits)
                 if LASTHEARD_INC:
-                   if int(float(p[9]))> 2: 
-                      log_lh_message = '{},{},{},{},{},{},{},TS{},TG{},{},{},{}'.format(_now, p[9], p[0], p[1], p[3], p[5], alias_call(int(p[5]), subscriber_ids), p[7], p[8],alias_tgid(int(p[8]),talkgroup_ids),p[6], alias_short(int(p[6]), subscriber_ids))
+                   if int(float(p[9]))> 2:
+                      if (int(p[8]) == 9) and (int(p[7]) == 2) and BRIDGES:
+                        for _bridge in BRIDGES:
+                            for _bridgesystem in BRIDGES[_bridge]:
+                                if p[3] == _bridgesystem['SYSTEM'] and _bridgesystem['ACTIVE'] == True and int_id(_bridgesystem['TGID']) == 9:
+                                    _refdest = str(_bridge[1:])
+                                    log_lh_message = '{},{},{},{},{},{},{},TS{},TG{},{},{},{}'.format(_now, p[9], p[0], p[1], p[3], p[5], alias_call(int(p[5]), subscriber_ids), p[7], _refdest,alias_tgid(int(_refdest),talkgroup_ids)+" (Rewritten to: 9)",p[6], alias_short(int(p[6]), subscriber_ids))
+                      
+                      else:
+                        log_lh_message = '{},{},{},{},{},{},{},TS{},TG{},{},{},{}'.format(_now, p[9], p[0], p[1], p[3], p[5], alias_call(int(p[5]), subscriber_ids), p[7], p[8],alias_tgid(int(p[8]),talkgroup_ids),p[6], alias_short(int(p[6]), subscriber_ids))  
+                          
                       lh_logfile = open(LOG_PATH+"lastheard.log", "a")
                       lh_logfile.write(log_lh_message + '\n')
                       lh_logfile.close()
@@ -632,7 +650,7 @@ def process_message(_bmessage):
                                    my_list.append(row[10])
                                    n += 1
                                else:
-                                   hline="<TR style=\"background-color:#f9f9f9f9;\"><TD>"+row[0][:10]+"</TD><TD>"+row[0][11:16]+"</TD><TD><font color=#0066ff><b><a target=\"_blank\" href=https://qrz.com/db/"+row[11]+">"+row[11]+"</a></b></font><span style=\"font: 7pt arial,sans-serif\"> ("+row[10]+")</span></TD><TD><font color=#002d62><b>"+row[12]+"</b></font></TD><TD><font color=#b5651d><b>"+row[8][2:]+"</b></font></TD><TD><font color=green><b>"+row[9]+"</b></font></TD><TD>"+dur+"</TD><TD>"+row[7][2:]+"</TD><TD>"+row[6]+"</TD><TD>"+row[4]+"</TD></TR>"
+                                   hline="<TR style=\"background-color:#f9f9f9f9;\"><TD>"+row[0][:10]+"</TD><TD>"+row[0][11:16]+"</TD><TD><font color=#0066ff><b><a target=\"_blank\" href=https://qrz.com/db/"+row[11]+">"+row[11]+"</a></b></font><span style=\"font: 7pt arial,sans-serif\"> ("+row[10]+")</span></TD><TD><font color=#002d62><b>"+row[12]+"</b></font></TD><TD><font color=#b5651d><b>aa"+row[8][2:]+"</b></font></TD><TD><font color=green><b>"+row[9]+"</b></font></TD><TD>"+dur+"</TD><TD>bb"+row[7][2:]+"</TD><TD>"+row[6]+"</TD><TD>"+row[4]+"</TD></TR>"
                                    my_list.append(row[10])
                                    n += 1
                                f.write(hline+"\n")

@@ -1032,3 +1032,1775 @@ monitor.py:524:rts_update
 ]
 2020-11-20 18:55:16 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
 2020-11-20 18:55:16 INFO unregistered client tcp4:127.0.0.1:54826
+2020-11-20 19:28:54 INFO monitor.py starting up
+2020-11-20 19:28:54 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 19:28:54 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 19:28:54 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 19:28:55 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 19:28:57 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 19:28:57 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 19:28:57 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 19:28:57 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 19:28:57 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7fefb8d2a5b0>
+2020-11-20 19:28:57 INFO Initiating Connection to Server.
+2020-11-20 19:28:57 INFO Connected.
+2020-11-20 19:28:57 INFO Resetting reconnection delay
+2020-11-20 19:29:05 INFO static website requested: <Request at 0x7fefb7aff6d0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 19:29:05 INFO Client connecting: tcp4:127.0.0.1:54914
+2020-11-20 19:29:05 INFO WebSocket connection open.
+2020-11-20 19:29:05 INFO registered client tcp4:127.0.0.1:54914
+2020-11-20 19:29:05 INFO static website requested: <Request at 0x7fefb8a3cbb0 method=GET uri=/favicon.ico clientproto=HTTP/1.1>
+2020-11-20 19:29:40 INFO WebSocket connection closed: None
+2020-11-20 19:29:40 INFO unregistered client tcp4:127.0.0.1:54914
+2020-11-20 19:29:40 INFO static website requested: <Request at 0x7fefb8a3caf0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 19:29:41 INFO Client connecting: tcp4:127.0.0.1:54916
+2020-11-20 19:29:41 INFO WebSocket connection open.
+2020-11-20 19:29:41 INFO registered client tcp4:127.0.0.1:54916
+2020-11-20 19:29:42 INFO WebSocket connection closed: None
+2020-11-20 19:29:42 INFO unregistered client tcp4:127.0.0.1:54916
+2020-11-20 19:29:42 INFO static website requested: <Request at 0x7fefb8efd5e0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 19:29:43 INFO Client connecting: tcp4:127.0.0.1:54918
+2020-11-20 19:29:43 INFO WebSocket connection open.
+2020-11-20 19:29:43 INFO registered client tcp4:127.0.0.1:54918
+2020-11-20 19:29:43 INFO WebSocket connection closed: None
+2020-11-20 19:29:43 INFO unregistered client tcp4:127.0.0.1:54918
+2020-11-20 19:29:44 INFO static website requested: <Request at 0x7fefb8efd5e0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 19:29:44 INFO Client connecting: tcp4:127.0.0.1:54920
+2020-11-20 19:29:44 INFO WebSocket connection open.
+2020-11-20 19:29:44 INFO registered client tcp4:127.0.0.1:54920
+2020-11-20 19:29:55 INFO WebSocket connection closed: None
+2020-11-20 19:29:55 INFO unregistered client tcp4:127.0.0.1:54920
+2020-11-20 19:29:55 INFO static website requested: <Request at 0x7fefb8d42460 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 19:29:55 INFO Client connecting: tcp4:127.0.0.1:54924
+2020-11-20 19:29:55 INFO WebSocket connection open.
+2020-11-20 19:29:55 INFO registered client tcp4:127.0.0.1:54924
+2020-11-20 19:29:56 INFO WebSocket connection closed: None
+2020-11-20 19:29:56 INFO unregistered client tcp4:127.0.0.1:54924
+2020-11-20 19:29:56 INFO static website requested: <Request at 0x7fefb5792100 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 19:29:57 INFO Client connecting: tcp4:127.0.0.1:54926
+2020-11-20 19:29:57 INFO WebSocket connection open.
+2020-11-20 19:29:57 INFO registered client tcp4:127.0.0.1:54926
+2020-11-20 19:29:58 INFO WebSocket connection closed: None
+2020-11-20 19:29:58 INFO unregistered client tcp4:127.0.0.1:54926
+2020-11-20 19:29:58 INFO static website requested: <Request at 0x7fefb2349d00 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 19:29:58 INFO Client connecting: tcp4:127.0.0.1:54928
+2020-11-20 19:29:58 INFO WebSocket connection open.
+2020-11-20 19:29:58 INFO registered client tcp4:127.0.0.1:54928
+2020-11-20 19:30:32 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 19:30:32 INFO unregistered client tcp4:127.0.0.1:54928
+2020-11-20 19:30:32 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:06:13 INFO monitor.py starting up
+2020-11-20 22:06:13 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:06:13 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:06:13 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:06:13 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:06:16 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:06:16 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:06:16 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:06:16 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:06:18 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7ffa7ceac580>
+2020-11-20 22:06:18 INFO Initiating Connection to Server.
+2020-11-20 22:06:18 INFO Connected.
+2020-11-20 22:06:18 INFO Resetting reconnection delay
+2020-11-20 22:07:08 INFO static website requested: <Request at 0x7ffa7ceac5e0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:07:09 INFO Client connecting: tcp4:127.0.0.1:55430
+2020-11-20 22:07:09 INFO WebSocket connection open.
+2020-11-20 22:07:09 INFO registered client tcp4:127.0.0.1:55430
+2020-11-20 22:07:46 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2571354202,2342690,2342690,2,9'
+2020-11-20 22:07:46 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2571354202,2342690,2342690,2,23510'
+2020-11-20 22:07:46 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2571354202,2342690,2342690,1,23510'
+2020-11-20 22:07:46 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2571354202,2342690,2342690,2,23510'
+2020-11-20 22:07:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2571354202,2342690,2342690,2,23510,5.13'
+2020-11-20 22:07:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2571354202,2342690,2342690,1,23510,5.13'
+2020-11-20 22:07:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2571354202,2342690,2342690,2,23510,5.13'
+2020-11-20 22:07:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2571354202,2342690,2342690,2,9,5.13'
+2020-11-20 22:07:52 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:688:stringReceived
+monitor.py:658:process_message
+]
+2020-11-20 22:07:55 INFO Initiating Connection to Server.
+2020-11-20 22:07:55 INFO Connected.
+2020-11-20 22:07:55 INFO Resetting reconnection delay
+2020-11-20 22:10:28 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:10:28 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:10:28 INFO unregistered client tcp4:127.0.0.1:55430
+2020-11-20 22:10:30 INFO monitor.py starting up
+2020-11-20 22:10:30 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:10:30 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:10:30 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:10:31 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:10:33 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:10:33 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:10:33 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:10:33 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:10:33 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7fad1b9594c0>
+2020-11-20 22:10:33 INFO Initiating Connection to Server.
+2020-11-20 22:10:33 INFO Connected.
+2020-11-20 22:10:33 INFO Resetting reconnection delay
+2020-11-20 22:10:40 INFO static website requested: <Request at 0x7fad1b6e8310 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:10:41 INFO Client connecting: tcp4:127.0.0.1:55444
+2020-11-20 22:10:41 INFO WebSocket connection open.
+2020-11-20 22:10:41 INFO registered client tcp4:127.0.0.1:55444
+2020-11-20 22:10:45 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3231673136,2342690,2342690,2,9'
+2020-11-20 22:10:45 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3231673136,2342690,2342690,2,23510'
+2020-11-20 22:10:45 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3231673136,2342690,2342690,1,23510'
+2020-11-20 22:10:45 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3231673136,2342690,2342690,2,23510'
+2020-11-20 22:10:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3231673136,2342690,2342690,2,23510,3.75'
+2020-11-20 22:10:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3231673136,2342690,2342690,1,23510,3.75'
+2020-11-20 22:10:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3231673136,2342690,2342690,2,23510,3.75'
+2020-11-20 22:10:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3231673136,2342690,2342690,2,9,3.75'
+2020-11-20 22:10:48 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:10:51 INFO Initiating Connection to Server.
+2020-11-20 22:10:51 INFO Connected.
+2020-11-20 22:10:51 INFO Resetting reconnection delay
+2020-11-20 22:11:15 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:11:15 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:11:15 INFO unregistered client tcp4:127.0.0.1:55444
+2020-11-20 22:11:49 INFO monitor.py starting up
+2020-11-20 22:11:49 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:11:49 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:11:49 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:11:49 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:11:51 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:11:51 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:11:51 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:11:51 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:11:52 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f08f0a9d4c0>
+2020-11-20 22:11:52 INFO Initiating Connection to Server.
+2020-11-20 22:11:52 INFO Connected.
+2020-11-20 22:11:52 INFO Resetting reconnection delay
+2020-11-20 22:11:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3879753516,2342690,2342690,2,9'
+2020-11-20 22:11:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3879753516,2342690,2342690,2,23510'
+2020-11-20 22:11:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3879753516,2342690,2342690,1,23510'
+2020-11-20 22:11:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3879753516,2342690,2342690,2,23510'
+2020-11-20 22:11:54 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3879753516,2342690,2342690,2,23510,1.41'
+2020-11-20 22:11:54 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3879753516,2342690,2342690,1,23510,1.41'
+2020-11-20 22:11:54 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3879753516,2342690,2342690,2,23510,1.41'
+2020-11-20 22:11:54 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3879753516,2342690,2342690,2,9,1.41'
+2020-11-20 22:11:54 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:11:57 INFO Initiating Connection to Server.
+2020-11-20 22:11:57 INFO Connected.
+2020-11-20 22:11:57 INFO Resetting reconnection delay
+2020-11-20 22:12:06 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1075696169,2342690,2342690,2,9'
+2020-11-20 22:12:06 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1075696169,2342690,2342690,2,23510'
+2020-11-20 22:12:06 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1075696169,2342690,2342690,1,23510'
+2020-11-20 22:12:06 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1075696169,2342690,2342690,2,23510'
+2020-11-20 22:12:10 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1075696169,2342690,2342690,2,23510,3.41'
+2020-11-20 22:12:10 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1075696169,2342690,2342690,1,23510,3.41'
+2020-11-20 22:12:10 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1075696169,2342690,2342690,2,23510,3.41'
+2020-11-20 22:12:10 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1075696169,2342690,2342690,2,9,3.41'
+2020-11-20 22:12:10 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:12:12 INFO Initiating Connection to Server.
+2020-11-20 22:12:12 INFO Connected.
+2020-11-20 22:12:12 INFO Resetting reconnection delay
+2020-11-20 22:13:05 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:13:07 INFO monitor.py starting up
+2020-11-20 22:13:07 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:13:07 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:13:07 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:13:07 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:13:09 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:13:09 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:13:09 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:13:09 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:13:09 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f2ebbf9a580>
+2020-11-20 22:13:09 INFO Initiating Connection to Server.
+2020-11-20 22:13:09 INFO Connected.
+2020-11-20 22:13:09 INFO Resetting reconnection delay
+2020-11-20 22:13:13 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1716704067,2342690,2342690,2,9'
+2020-11-20 22:13:13 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1716704067,2342690,2342690,2,23510'
+2020-11-20 22:13:13 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1716704067,2342690,2342690,1,23510'
+2020-11-20 22:13:13 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1716704067,2342690,2342690,2,23510'
+2020-11-20 22:13:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1716704067,2342690,2342690,2,23510,2.16'
+2020-11-20 22:13:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1716704067,2342690,2342690,1,23510,2.16'
+2020-11-20 22:13:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1716704067,2342690,2342690,2,23510,2.16'
+2020-11-20 22:13:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1716704067,2342690,2342690,2,9,2.16'
+2020-11-20 22:13:15 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:13:18 INFO Initiating Connection to Server.
+2020-11-20 22:13:18 INFO Connected.
+2020-11-20 22:13:18 INFO Resetting reconnection delay
+2020-11-20 22:13:20 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2698800224,2342690,2342690,2,9'
+2020-11-20 22:13:20 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2698800224,2342690,2342690,2,23510'
+2020-11-20 22:13:20 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2698800224,2342690,2342690,1,23510'
+2020-11-20 22:13:20 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2698800224,2342690,2342690,2,23510'
+2020-11-20 22:13:23 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2698800224,2342690,2342690,2,23510,3.31'
+2020-11-20 22:13:23 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2698800224,2342690,2342690,1,23510,3.31'
+2020-11-20 22:13:23 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2698800224,2342690,2342690,2,23510,3.31'
+2020-11-20 22:13:23 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2698800224,2342690,2342690,2,9,3.31'
+2020-11-20 22:13:23 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:13:26 INFO static website requested: <Request at 0x7f2ebbd69df0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:13:26 INFO Client connecting: tcp4:127.0.0.1:55468
+2020-11-20 22:13:26 INFO WebSocket connection open.
+2020-11-20 22:13:26 INFO registered client tcp4:127.0.0.1:55468
+2020-11-20 22:13:27 INFO Initiating Connection to Server.
+2020-11-20 22:13:27 INFO Connected.
+2020-11-20 22:13:27 INFO Resetting reconnection delay
+2020-11-20 22:13:47 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:13:47 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:13:47 INFO unregistered client tcp4:127.0.0.1:55468
+2020-11-20 22:14:30 INFO monitor.py starting up
+2020-11-20 22:14:30 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:14:30 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:14:30 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:14:30 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:14:32 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:14:32 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:14:32 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:14:32 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:14:32 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7feff8d334c0>
+2020-11-20 22:14:32 INFO Initiating Connection to Server.
+2020-11-20 22:14:32 INFO Connected.
+2020-11-20 22:14:32 INFO Resetting reconnection delay
+2020-11-20 22:14:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2316510587,2342690,2342690,2,9'
+2020-11-20 22:14:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2316510587,2342690,2342690,2,23510'
+2020-11-20 22:14:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2316510587,2342690,2342690,1,23510'
+2020-11-20 22:14:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2316510587,2342690,2342690,2,23510,1.26'
+2020-11-20 22:14:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2316510587,2342690,2342690,1,23510,1.26'
+2020-11-20 22:14:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2316510587,2342690,2342690,2,9,1.26'
+2020-11-20 22:14:35 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:14:38 INFO Initiating Connection to Server.
+2020-11-20 22:14:38 INFO Connected.
+2020-11-20 22:14:38 INFO Resetting reconnection delay
+2020-11-20 22:14:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2079526982,2342690,2342690,2,9'
+2020-11-20 22:14:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2079526982,2342690,2342690,2,23510'
+2020-11-20 22:14:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2079526982,2342690,2342690,1,23510'
+2020-11-20 22:14:42 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2079526982,2342690,2342690,2,23510,1.24'
+2020-11-20 22:14:42 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2079526982,2342690,2342690,1,23510,1.24'
+2020-11-20 22:14:42 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2079526982,2342690,2342690,2,9,1.24'
+2020-11-20 22:14:42 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:14:43 INFO static website requested: <Request at 0x7feff5f77790 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:14:43 INFO Client connecting: tcp4:127.0.0.1:55488
+2020-11-20 22:14:43 INFO WebSocket connection open.
+2020-11-20 22:14:43 INFO registered client tcp4:127.0.0.1:55488
+2020-11-20 22:14:44 INFO Initiating Connection to Server.
+2020-11-20 22:14:44 INFO Connected.
+2020-11-20 22:14:44 INFO Resetting reconnection delay
+2020-11-20 22:14:45 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1830866485,2342690,2342690,2,23510,0.51'
+2020-11-20 22:14:45 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1830866485,2342690,2342690,1,23510,0.51'
+2020-11-20 22:14:45 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1830866485,2342690,2342690,2,23510,0.51'
+2020-11-20 22:14:45 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1830866485,2342690,2342690,2,9,0.51'
+2020-11-20 22:14:45 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:14:48 INFO Initiating Connection to Server.
+2020-11-20 22:14:48 INFO Connected.
+2020-11-20 22:14:48 INFO Resetting reconnection delay
+2020-11-20 22:14:51 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,138729320,2342690,2342690,2,9'
+2020-11-20 22:14:51 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,138729320,2342690,2342690,2,23510'
+2020-11-20 22:14:51 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,138729320,2342690,2342690,1,23510'
+2020-11-20 22:14:51 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,138729320,2342690,2342690,2,23510'
+2020-11-20 22:14:53 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,138729320,2342690,2342690,2,23510,1.94'
+2020-11-20 22:14:53 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,138729320,2342690,2342690,1,23510,1.94'
+2020-11-20 22:14:53 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,138729320,2342690,2342690,2,23510,1.94'
+2020-11-20 22:14:53 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,138729320,2342690,2342690,2,9,1.94'
+2020-11-20 22:14:53 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:14:56 INFO Initiating Connection to Server.
+2020-11-20 22:14:56 INFO Connected.
+2020-11-20 22:14:56 INFO Resetting reconnection delay
+2020-11-20 22:15:17 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:15:17 INFO unregistered client tcp4:127.0.0.1:55488
+2020-11-20 22:15:17 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:15:19 INFO monitor.py starting up
+2020-11-20 22:15:19 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:15:19 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:15:19 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:15:19 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:15:21 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:15:21 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:15:21 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:15:21 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:15:22 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7efc9ea385b0>
+2020-11-20 22:15:22 INFO Initiating Connection to Server.
+2020-11-20 22:15:22 INFO Connected.
+2020-11-20 22:15:22 INFO Resetting reconnection delay
+2020-11-20 22:15:22 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,4173598532,2342690,2342690,2,9'
+2020-11-20 22:15:22 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,4173598532,2342690,2342690,2,23510'
+2020-11-20 22:15:22 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,4173598532,2342690,2342690,1,23510'
+2020-11-20 22:15:22 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,4173598532,2342690,2342690,2,23510'
+2020-11-20 22:15:24 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,4173598532,2342690,2342690,2,23510,1.96'
+2020-11-20 22:15:24 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,4173598532,2342690,2342690,1,23510,1.96'
+2020-11-20 22:15:24 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,4173598532,2342690,2342690,2,23510,1.96'
+2020-11-20 22:15:24 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,4173598532,2342690,2342690,2,9,1.96'
+2020-11-20 22:15:24 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:15:27 INFO Initiating Connection to Server.
+2020-11-20 22:15:27 INFO Connected.
+2020-11-20 22:15:27 INFO Resetting reconnection delay
+2020-11-20 22:15:39 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:16:32 INFO monitor.py starting up
+2020-11-20 22:16:32 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:16:32 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:16:32 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:16:33 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:16:35 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:16:35 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:16:35 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:16:35 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:16:35 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7fd63179e370>
+2020-11-20 22:16:35 INFO Initiating Connection to Server.
+2020-11-20 22:16:35 INFO Connected.
+2020-11-20 22:16:35 INFO Resetting reconnection delay
+2020-11-20 22:16:37 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1182182961,2342690,2342690,2,9'
+2020-11-20 22:16:37 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1182182961,2342690,2342690,2,23510'
+2020-11-20 22:16:37 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1182182961,2342690,2342690,1,23510'
+2020-11-20 22:16:37 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1182182961,2342690,2342690,2,23510'
+2020-11-20 22:16:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,270954079,2342690,2342690,2,9'
+2020-11-20 22:16:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,270954079,2342690,2342690,2,23510'
+2020-11-20 22:16:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,270954079,2342690,2342690,1,23510'
+2020-11-20 22:16:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,270954079,2342690,2342690,2,23510'
+2020-11-20 22:16:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,270954079,2342690,2342690,2,23510,1.23'
+2020-11-20 22:16:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,270954079,2342690,2342690,1,23510,1.23'
+2020-11-20 22:16:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,270954079,2342690,2342690,2,23510,1.23'
+2020-11-20 22:16:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,270954079,2342690,2342690,2,9,1.23'
+2020-11-20 22:16:44 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:16:47 INFO Initiating Connection to Server.
+2020-11-20 22:16:47 INFO Connected.
+2020-11-20 22:16:47 INFO Resetting reconnection delay
+2020-11-20 22:16:48 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2964961844,2342690,2342690,2,9'
+2020-11-20 22:16:48 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2964961844,2342690,2342690,2,23510'
+2020-11-20 22:16:48 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2964961844,2342690,2342690,1,23510'
+2020-11-20 22:16:48 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2964961844,2342690,2342690,2,23510'
+2020-11-20 22:16:49 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2964961844,2342690,2342690,2,23510,0.90'
+2020-11-20 22:16:49 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2964961844,2342690,2342690,1,23510,0.90'
+2020-11-20 22:16:49 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2964961844,2342690,2342690,2,23510,0.90'
+2020-11-20 22:16:49 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2964961844,2342690,2342690,2,9,0.90'
+2020-11-20 22:16:49 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:16:52 INFO Initiating Connection to Server.
+2020-11-20 22:16:52 INFO Connected.
+2020-11-20 22:16:52 INFO Resetting reconnection delay
+2020-11-20 22:17:34 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:17:36 INFO monitor.py starting up
+2020-11-20 22:17:36 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:17:36 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:17:36 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:17:36 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:17:38 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:17:38 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:17:38 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:17:38 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:17:39 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f35c371e4c0>
+2020-11-20 22:17:39 INFO Initiating Connection to Server.
+2020-11-20 22:17:39 INFO Connected.
+2020-11-20 22:17:39 INFO Resetting reconnection delay
+2020-11-20 22:17:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2026010206,2342690,2342690,2,9'
+2020-11-20 22:17:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2026010206,2342690,2342690,2,23510'
+2020-11-20 22:17:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2026010206,2342690,2342690,1,23510'
+2020-11-20 22:17:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2026010206,2342690,2342690,2,23510'
+2020-11-20 22:17:41 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2026010206,2342690,2342690,2,23510,0.88'
+2020-11-20 22:17:41 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2026010206,2342690,2342690,1,23510,0.88'
+2020-11-20 22:17:41 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2026010206,2342690,2342690,2,23510,0.88'
+2020-11-20 22:17:41 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2026010206,2342690,2342690,2,9,0.88'
+2020-11-20 22:17:41 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:17:44 INFO Initiating Connection to Server.
+2020-11-20 22:17:44 INFO Connected.
+2020-11-20 22:17:44 INFO Resetting reconnection delay
+2020-11-20 22:17:49 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:18:57 INFO monitor.py starting up
+2020-11-20 22:18:57 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:18:57 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:18:57 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:18:58 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:19:00 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:19:00 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:19:00 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:19:00 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:19:00 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7ff86c0d85b0>
+2020-11-20 22:19:00 INFO Initiating Connection to Server.
+2020-11-20 22:19:00 INFO Connected.
+2020-11-20 22:19:00 INFO Resetting reconnection delay
+2020-11-20 22:19:02 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1814316087,2342690,2342690,2,9'
+2020-11-20 22:19:02 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1814316087,2342690,2342690,2,23510'
+2020-11-20 22:19:02 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1814316087,2342690,2342690,1,23510'
+2020-11-20 22:19:02 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1814316087,2342690,2342690,2,23510'
+2020-11-20 22:19:03 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1814316087,2342690,2342690,2,23510,1.47'
+2020-11-20 22:19:03 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1814316087,2342690,2342690,1,23510,1.47'
+2020-11-20 22:19:03 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1814316087,2342690,2342690,2,23510,1.47'
+2020-11-20 22:19:03 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1814316087,2342690,2342690,2,9,1.47'
+2020-11-20 22:19:03 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:19:06 INFO Initiating Connection to Server.
+2020-11-20 22:19:06 INFO Connected.
+2020-11-20 22:19:06 INFO Resetting reconnection delay
+2020-11-20 22:20:05 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:20:07 INFO monitor.py starting up
+2020-11-20 22:20:07 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:20:07 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:20:07 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:20:07 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:20:09 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:20:09 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:20:09 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:20:09 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:20:10 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7fe2b8e055b0>
+2020-11-20 22:20:10 INFO Initiating Connection to Server.
+2020-11-20 22:20:10 INFO Connected.
+2020-11-20 22:20:10 INFO Resetting reconnection delay
+2020-11-20 22:20:13 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2196174894,2342690,2342690,2,9'
+2020-11-20 22:20:13 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2196174894,2342690,2342690,2,23510'
+2020-11-20 22:20:13 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2196174894,2342690,2342690,1,23510'
+2020-11-20 22:20:13 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2196174894,2342690,2342690,2,23510'
+2020-11-20 22:20:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2196174894,2342690,2342690,2,23510,2.17'
+2020-11-20 22:20:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2196174894,2342690,2342690,1,23510,2.17'
+2020-11-20 22:20:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2196174894,2342690,2342690,2,23510,2.17'
+2020-11-20 22:20:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2196174894,2342690,2342690,2,9,2.17'
+2020-11-20 22:20:15 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:20:17 INFO Initiating Connection to Server.
+2020-11-20 22:20:17 INFO Connected.
+2020-11-20 22:20:17 INFO Resetting reconnection delay
+2020-11-20 22:20:43 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:20:53 INFO monitor.py starting up
+2020-11-20 22:20:53 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:20:53 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:20:53 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:20:53 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:20:55 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:20:55 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:20:55 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:20:55 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:20:55 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f7407063580>
+2020-11-20 22:20:55 INFO Initiating Connection to Server.
+2020-11-20 22:20:55 INFO Connected.
+2020-11-20 22:20:55 INFO Resetting reconnection delay
+2020-11-20 22:20:56 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1399826462,2342690,2342690,2,9'
+2020-11-20 22:20:56 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1399826462,2342690,2342690,2,23510'
+2020-11-20 22:20:56 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1399826462,2342690,2342690,1,23510'
+2020-11-20 22:20:56 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1399826462,2342690,2342690,2,23510'
+2020-11-20 22:20:57 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1399826462,2342690,2342690,2,23510,1.17'
+2020-11-20 22:20:57 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1399826462,2342690,2342690,1,23510,1.17'
+2020-11-20 22:20:57 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1399826462,2342690,2342690,2,23510,1.17'
+2020-11-20 22:20:57 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1399826462,2342690,2342690,2,9,1.17'
+2020-11-20 22:20:57 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:689:stringReceived
+monitor.py:659:process_message
+]
+2020-11-20 22:21:00 INFO Initiating Connection to Server.
+2020-11-20 22:21:00 INFO Connected.
+2020-11-20 22:21:00 INFO Resetting reconnection delay
+2020-11-20 22:21:16 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:22:29 INFO monitor.py starting up
+2020-11-20 22:22:29 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:22:29 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:22:29 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:22:29 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:22:31 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:22:31 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:22:31 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:22:31 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:22:32 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f9070e784c0>
+2020-11-20 22:22:32 INFO Initiating Connection to Server.
+2020-11-20 22:22:32 INFO Connected.
+2020-11-20 22:22:32 INFO Resetting reconnection delay
+2020-11-20 22:22:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1379697471,2342690,2342690,2,9'
+2020-11-20 22:22:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1379697471,2342690,2342690,2,23510'
+2020-11-20 22:22:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1379697471,2342690,2342690,1,23510'
+2020-11-20 22:22:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1379697471,2342690,2342690,2,23510'
+2020-11-20 22:22:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1379697471,2342690,2342690,2,23510,0.90'
+2020-11-20 22:22:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1379697471,2342690,2342690,1,23510,0.90'
+2020-11-20 22:22:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1379697471,2342690,2342690,2,23510,0.90'
+2020-11-20 22:22:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1379697471,2342690,2342690,2,9,0.90'
+2020-11-20 22:22:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1379697471,2342690,2342690,2,23510,0.91'
+2020-11-20 22:22:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1379697471,2342690,2342690,1,23510,0.91'
+2020-11-20 22:22:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1379697471,2342690,2342690,2,23510,0.91'
+2020-11-20 22:22:46 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1561843527,2342690,2342690,2,9'
+2020-11-20 22:22:46 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1561843527,2342690,2342690,2,23510'
+2020-11-20 22:22:46 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1561843527,2342690,2342690,1,23510'
+2020-11-20 22:22:46 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1561843527,2342690,2342690,2,23510'
+2020-11-20 22:22:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1561843527,2342690,2342690,2,23510,1.98'
+2020-11-20 22:22:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1561843527,2342690,2342690,1,23510,1.98'
+2020-11-20 22:22:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1561843527,2342690,2342690,2,23510,1.98'
+2020-11-20 22:22:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1561843527,2342690,2342690,2,9,1.98'
+2020-11-20 22:22:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1561843527,2342690,2342690,2,23510,1.98'
+2020-11-20 22:22:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1561843527,2342690,2342690,1,23510,1.98'
+2020-11-20 22:22:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1561843527,2342690,2342690,2,23510,1.98'
+2020-11-20 22:22:49 INFO static website requested: <Request at 0x7f906d8e6b20 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:22:50 INFO Client connecting: tcp4:127.0.0.1:55546
+2020-11-20 22:22:50 INFO WebSocket connection open.
+2020-11-20 22:22:50 INFO registered client tcp4:127.0.0.1:55546
+2020-11-20 22:22:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1947675725,2342690,2342690,2,9'
+2020-11-20 22:22:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1947675725,2342690,2342690,2,23510'
+2020-11-20 22:22:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1947675725,2342690,2342690,1,23510'
+2020-11-20 22:22:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1947675725,2342690,2342690,2,23510'
+2020-11-20 22:22:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1947675725,2342690,2342690,2,23510,3.74'
+2020-11-20 22:22:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1947675725,2342690,2342690,1,23510,3.74'
+2020-11-20 22:22:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1947675725,2342690,2342690,2,23510,3.74'
+2020-11-20 22:22:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1947675725,2342690,2342690,2,9,3.74'
+2020-11-20 22:22:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1947675725,2342690,2342690,2,23510,3.75'
+2020-11-20 22:22:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1947675725,2342690,2342690,1,23510,3.75'
+2020-11-20 22:22:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1947675725,2342690,2342690,2,23510,3.75'
+2020-11-20 22:23:00 INFO WebSocket connection closed: None
+2020-11-20 22:23:00 INFO unregistered client tcp4:127.0.0.1:55546
+2020-11-20 22:23:00 INFO static website requested: <Request at 0x7f906a2485e0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:23:01 INFO Client connecting: tcp4:127.0.0.1:55548
+2020-11-20 22:23:01 INFO WebSocket connection open.
+2020-11-20 22:23:01 INFO registered client tcp4:127.0.0.1:55548
+2020-11-20 22:23:03 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3991453965,2342690,2342690,2,9'
+2020-11-20 22:23:03 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3991453965,2342690,2342690,2,23510'
+2020-11-20 22:23:03 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3991453965,2342690,2342690,1,23510'
+2020-11-20 22:23:03 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3991453965,2342690,2342690,2,23510'
+2020-11-20 22:23:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3991453965,2342690,2342690,2,23510,5.17'
+2020-11-20 22:23:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3991453965,2342690,2342690,1,23510,5.17'
+2020-11-20 22:23:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3991453965,2342690,2342690,2,23510,5.17'
+2020-11-20 22:23:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3991453965,2342690,2342690,2,9,5.17'
+2020-11-20 22:23:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3991453965,2342690,2342690,2,23510,5.17'
+2020-11-20 22:23:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3991453965,2342690,2342690,1,23510,5.17'
+2020-11-20 22:23:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3991453965,2342690,2342690,2,23510,5.17'
+2020-11-20 22:23:11 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2693107549,2342690,2342690,2,9'
+2020-11-20 22:23:11 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2693107549,2342690,2342690,2,23510'
+2020-11-20 22:23:11 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2693107549,2342690,2342690,1,23510'
+2020-11-20 22:23:11 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2693107549,2342690,2342690,2,23510'
+2020-11-20 22:23:14 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2693107549,2342690,2342690,2,23510,3.70'
+2020-11-20 22:23:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2693107549,2342690,2342690,1,23510,3.70'
+2020-11-20 22:23:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2693107549,2342690,2342690,2,23510,3.70'
+2020-11-20 22:23:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2693107549,2342690,2342690,2,9,3.70'
+2020-11-20 22:23:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2693107549,2342690,2342690,2,23510,3.71'
+2020-11-20 22:23:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2693107549,2342690,2342690,1,23510,3.71'
+2020-11-20 22:23:15 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2693107549,2342690,2342690,2,23510,3.71'
+2020-11-20 22:28:36 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3126094649,2342690,2342690,2,9'
+2020-11-20 22:28:36 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3126094649,2342690,2342690,2,23510'
+2020-11-20 22:28:36 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3126094649,2342690,2342690,1,23510'
+2020-11-20 22:28:36 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3126094649,2342690,2342690,2,23510'
+2020-11-20 22:28:37 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3126094649,2342690,2342690,2,23510,1.24'
+2020-11-20 22:28:37 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3126094649,2342690,2342690,1,23510,1.24'
+2020-11-20 22:28:37 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3126094649,2342690,2342690,2,23510,1.24'
+2020-11-20 22:28:38 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3126094649,2342690,2342690,2,9,1.24'
+2020-11-20 22:28:38 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3126094649,2342690,2342690,2,23510,1.24'
+2020-11-20 22:28:38 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3126094649,2342690,2342690,1,23510,1.24'
+2020-11-20 22:28:38 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3126094649,2342690,2342690,2,23510,1.24'
+2020-11-20 22:28:41 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,133462826,2342690,2342690,2,9'
+2020-11-20 22:28:41 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,133462826,2342690,2342690,2,23510'
+2020-11-20 22:28:41 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,133462826,2342690,2342690,1,23510'
+2020-11-20 22:28:41 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,133462826,2342690,2342690,2,23510'
+2020-11-20 22:28:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,133462826,2342690,2342690,2,23510,1.95'
+2020-11-20 22:28:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,133462826,2342690,2342690,1,23510,1.95'
+2020-11-20 22:28:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,133462826,2342690,2342690,2,23510,1.95'
+2020-11-20 22:28:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,133462826,2342690,2342690,2,9,1.95'
+2020-11-20 22:28:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,133462826,2342690,2342690,2,23510,1.95'
+2020-11-20 22:28:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,133462826,2342690,2342690,1,23510,1.95'
+2020-11-20 22:28:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,133462826,2342690,2342690,2,23510,1.95'
+2020-11-20 22:28:45 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,301125162,2342690,2342690,2,9'
+2020-11-20 22:28:45 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,301125162,2342690,2342690,2,23510'
+2020-11-20 22:28:45 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,301125162,2342690,2342690,1,23510'
+2020-11-20 22:28:45 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,301125162,2342690,2342690,2,23510'
+2020-11-20 22:28:46 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,301125162,2342690,2342690,2,23510,0.84'
+2020-11-20 22:28:46 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,301125162,2342690,2342690,1,23510,0.84'
+2020-11-20 22:28:46 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,301125162,2342690,2342690,2,23510,0.84'
+2020-11-20 22:28:46 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,301125162,2342690,2342690,2,9,0.84'
+2020-11-20 22:28:46 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,301125162,2342690,2342690,2,23510,0.85'
+2020-11-20 22:28:46 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,301125162,2342690,2342690,1,23510,0.85'
+2020-11-20 22:28:46 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,301125162,2342690,2342690,2,23510,0.85'
+2020-11-20 22:29:12 INFO static website requested: <Request at 0x7f9070b87670 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:29:13 INFO Client connecting: tcp4:127.0.0.1:55618
+2020-11-20 22:29:13 INFO WebSocket connection open.
+2020-11-20 22:29:13 INFO registered client tcp4:127.0.0.1:55618
+2020-11-20 22:29:13 INFO static website requested: <Request at 0x7f9070b87670 method=GET uri=/favicon.ico clientproto=HTTP/1.1>
+2020-11-20 22:30:03 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:30:03 INFO unregistered client tcp4:127.0.0.1:55618
+2020-11-20 22:30:03 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:30:03 INFO unregistered client tcp4:127.0.0.1:55548
+2020-11-20 22:30:03 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:30:05 INFO monitor.py starting up
+2020-11-20 22:30:05 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:30:05 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:30:05 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:30:05 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:30:07 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:30:07 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:30:07 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:30:07 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:30:08 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f1a363815b0>
+2020-11-20 22:30:08 INFO Initiating Connection to Server.
+2020-11-20 22:30:08 INFO Connected.
+2020-11-20 22:30:08 INFO Resetting reconnection delay
+2020-11-20 22:30:49 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1304412271,2342690,2342690,2,23510'
+2020-11-20 22:30:50 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1304412271,2342690,2342690,2,23510,0.83'
+2020-11-20 22:30:50 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1304412271,2342690,2342690,2,23510,124.64'
+2020-11-20 22:30:50 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1304412271,2342690,2342690,1,23510,124.64'
+2020-11-20 22:30:50 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1304412271,2342690,2342690,2,23510,124.64'
+2020-11-20 22:31:03 INFO static website requested: <Request at 0x7f1a36110970 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:31:04 INFO Client connecting: tcp4:127.0.0.1:55628
+2020-11-20 22:31:04 INFO WebSocket connection open.
+2020-11-20 22:31:04 INFO registered client tcp4:127.0.0.1:55628
+2020-11-20 22:31:37 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:31:37 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:31:37 INFO unregistered client tcp4:127.0.0.1:55628
+2020-11-20 22:31:39 INFO monitor.py starting up
+2020-11-20 22:31:39 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:31:39 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:31:39 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:31:39 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:31:41 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:31:41 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:31:41 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:31:41 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:31:42 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f39f0d0d370>
+2020-11-20 22:31:42 INFO Initiating Connection to Server.
+2020-11-20 22:31:42 INFO Connected.
+2020-11-20 22:31:42 INFO Resetting reconnection delay
+2020-11-20 22:31:43 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1477810185,2342690,2342690,2,23510'
+2020-11-20 22:31:43 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1477810185,2342690,2342690,2,23510'
+2020-11-20 22:31:43 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1477810185,2342690,2342690,1,23510'
+2020-11-20 22:31:43 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1477810185,2342690,2342690,2,23510'
+2020-11-20 22:31:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1477810185,2342690,2342690,2,23510,1.26'
+2020-11-20 22:31:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1477810185,2342690,2342690,1,23510,1.26'
+2020-11-20 22:31:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1477810185,2342690,2342690,2,23510,1.26'
+2020-11-20 22:31:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1477810185,2342690,2342690,2,23510,1.26'
+2020-11-20 22:31:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1477810185,2342690,2342690,2,23510,1.26'
+2020-11-20 22:31:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1477810185,2342690,2342690,1,23510,1.26'
+2020-11-20 22:31:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1477810185,2342690,2342690,2,23510,1.26'
+2020-11-20 22:32:23 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:32:24 INFO monitor.py starting up
+2020-11-20 22:32:24 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:32:24 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:32:24 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:32:25 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:32:27 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:32:27 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:32:27 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:32:27 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:32:27 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f80a04f6370>
+2020-11-20 22:32:27 INFO Initiating Connection to Server.
+2020-11-20 22:32:27 INFO Connected.
+2020-11-20 22:32:27 INFO Resetting reconnection delay
+2020-11-20 22:32:27 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1880261135,2342690,2342690,2,23510,1.19'
+2020-11-20 22:32:27 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1880261135,2342690,2342690,1,23510,1.19'
+2020-11-20 22:32:27 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1880261135,2342690,2342690,2,23510,1.19'
+2020-11-20 22:32:27 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1880261135,2342690,2342690,2,23510,1.19'
+2020-11-20 22:32:27 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1880261135,2342690,2342690,2,23510,1.20'
+2020-11-20 22:32:27 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1880261135,2342690,2342690,1,23510,1.20'
+2020-11-20 22:32:27 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1880261135,2342690,2342690,2,23510,1.20'
+2020-11-20 22:32:29 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3573248632,2342690,2342690,2,23510'
+2020-11-20 22:32:29 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3573248632,2342690,2342690,2,23510'
+2020-11-20 22:32:29 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3573248632,2342690,2342690,1,23510'
+2020-11-20 22:32:29 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3573248632,2342690,2342690,2,23510'
+2020-11-20 22:32:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3573248632,2342690,2342690,2,23510,0.87'
+2020-11-20 22:32:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3573248632,2342690,2342690,1,23510,0.87'
+2020-11-20 22:32:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3573248632,2342690,2342690,2,23510,0.87'
+2020-11-20 22:32:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3573248632,2342690,2342690,2,23510,0.87'
+2020-11-20 22:32:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3573248632,2342690,2342690,2,23510,0.87'
+2020-11-20 22:32:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3573248632,2342690,2342690,1,23510,0.87'
+2020-11-20 22:32:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3573248632,2342690,2342690,2,23510,0.87'
+2020-11-20 22:32:31 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,4032321636,2342690,2342690,2,23510'
+2020-11-20 22:32:31 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,4032321636,2342690,2342690,2,23510'
+2020-11-20 22:32:31 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,4032321636,2342690,2342690,1,23510'
+2020-11-20 22:32:31 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,4032321636,2342690,2342690,2,23510'
+2020-11-20 22:32:31 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,4032321636,2342690,2342690,2,23510,0.51'
+2020-11-20 22:32:31 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,4032321636,2342690,2342690,1,23510,0.51'
+2020-11-20 22:32:31 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,4032321636,2342690,2342690,2,23510,0.51'
+2020-11-20 22:32:31 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,4032321636,2342690,2342690,2,23510,0.51'
+2020-11-20 22:32:31 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,4032321636,2342690,2342690,2,23510,0.52'
+2020-11-20 22:32:31 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,4032321636,2342690,2342690,1,23510,0.52'
+2020-11-20 22:32:31 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,4032321636,2342690,2342690,2,23510,0.52'
+2020-11-20 22:32:46 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:32:48 INFO monitor.py starting up
+2020-11-20 22:32:48 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:32:48 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:32:48 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:32:48 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:32:50 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:32:50 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:32:50 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:32:50 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:32:51 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7fb9f2690580>
+2020-11-20 22:32:51 INFO Initiating Connection to Server.
+2020-11-20 22:32:51 INFO Connected.
+2020-11-20 22:32:51 INFO Resetting reconnection delay
+2020-11-20 22:32:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,800255295,2342690,2342690,2,23510,1.25'
+2020-11-20 22:32:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,800255295,2342690,2342690,1,23510,1.25'
+2020-11-20 22:32:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,800255295,2342690,2342690,2,23510,1.25'
+2020-11-20 22:32:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,800255295,2342690,2342690,2,23510,1.25'
+2020-11-20 22:32:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,800255295,2342690,2342690,2,23510,1.25'
+2020-11-20 22:32:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,800255295,2342690,2342690,1,23510,1.25'
+2020-11-20 22:32:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,800255295,2342690,2342690,2,23510,1.25'
+2020-11-20 22:32:53 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3141323300,2342690,2342690,2,23510'
+2020-11-20 22:32:53 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3141323300,2342690,2342690,2,23510'
+2020-11-20 22:32:53 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3141323300,2342690,2342690,1,23510'
+2020-11-20 22:32:53 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3141323300,2342690,2342690,2,23510'
+2020-11-20 22:32:54 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3141323300,2342690,2342690,2,23510,0.84'
+2020-11-20 22:32:54 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3141323300,2342690,2342690,1,23510,0.84'
+2020-11-20 22:32:54 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3141323300,2342690,2342690,2,23510,0.84'
+2020-11-20 22:32:54 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3141323300,2342690,2342690,2,23510,0.84'
+2020-11-20 22:32:54 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3141323300,2342690,2342690,2,23510,0.84'
+2020-11-20 22:32:54 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3141323300,2342690,2342690,1,23510,0.84'
+2020-11-20 22:32:54 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3141323300,2342690,2342690,2,23510,0.84'
+2020-11-20 22:32:55 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,796273166,2342690,2342690,2,23510'
+2020-11-20 22:32:55 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,796273166,2342690,2342690,2,23510'
+2020-11-20 22:32:55 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,796273166,2342690,2342690,1,23510'
+2020-11-20 22:32:55 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,796273166,2342690,2342690,2,23510'
+2020-11-20 22:32:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,796273166,2342690,2342690,2,23510,1.19'
+2020-11-20 22:32:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,796273166,2342690,2342690,1,23510,1.19'
+2020-11-20 22:32:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,796273166,2342690,2342690,2,23510,1.19'
+2020-11-20 22:32:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,796273166,2342690,2342690,2,23510,1.19'
+2020-11-20 22:32:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,796273166,2342690,2342690,2,23510,1.20'
+2020-11-20 22:32:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,796273166,2342690,2342690,1,23510,1.20'
+2020-11-20 22:32:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,796273166,2342690,2342690,2,23510,1.20'
+2020-11-20 22:33:03 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2483339523,2342690,2342690,2,23510'
+2020-11-20 22:33:03 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2483339523,2342690,2342690,2,23510'
+2020-11-20 22:33:03 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2483339523,2342690,2342690,1,23510'
+2020-11-20 22:33:03 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2483339523,2342690,2342690,2,23510'
+2020-11-20 22:33:04 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2483339523,2342690,2342690,2,23510,0.90'
+2020-11-20 22:33:04 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2483339523,2342690,2342690,1,23510,0.90'
+2020-11-20 22:33:04 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2483339523,2342690,2342690,2,23510,0.90'
+2020-11-20 22:33:04 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2483339523,2342690,2342690,2,23510,0.90'
+2020-11-20 22:33:04 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2483339523,2342690,2342690,2,23510,0.91'
+2020-11-20 22:33:04 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2483339523,2342690,2342690,1,23510,0.91'
+2020-11-20 22:33:04 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2483339523,2342690,2342690,2,23510,0.91'
+2020-11-20 22:33:13 INFO static website requested: <Request at 0x7fb9f14666a0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:13 INFO Client connecting: tcp4:127.0.0.1:55646
+2020-11-20 22:33:13 INFO WebSocket connection open.
+2020-11-20 22:33:13 INFO registered client tcp4:127.0.0.1:55646
+2020-11-20 22:33:29 INFO WebSocket connection closed: None
+2020-11-20 22:33:29 INFO unregistered client tcp4:127.0.0.1:55646
+2020-11-20 22:33:29 INFO static website requested: <Request at 0x7fb9f239f4f0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:30 INFO Client connecting: tcp4:127.0.0.1:55648
+2020-11-20 22:33:30 INFO WebSocket connection open.
+2020-11-20 22:33:30 INFO registered client tcp4:127.0.0.1:55648
+2020-11-20 22:33:30 INFO WebSocket connection closed: None
+2020-11-20 22:33:30 INFO unregistered client tcp4:127.0.0.1:55648
+2020-11-20 22:33:31 INFO static website requested: <Request at 0x7fb9f2863880 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:31 INFO Client connecting: tcp4:127.0.0.1:55650
+2020-11-20 22:33:31 INFO WebSocket connection open.
+2020-11-20 22:33:31 INFO registered client tcp4:127.0.0.1:55650
+2020-11-20 22:33:31 INFO WebSocket connection closed: None
+2020-11-20 22:33:31 INFO unregistered client tcp4:127.0.0.1:55650
+2020-11-20 22:33:32 INFO static website requested: <Request at 0x7fb9f239fbe0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:32 INFO Client connecting: tcp4:127.0.0.1:55652
+2020-11-20 22:33:32 INFO WebSocket connection open.
+2020-11-20 22:33:32 INFO registered client tcp4:127.0.0.1:55652
+2020-11-20 22:33:33 INFO WebSocket connection closed: None
+2020-11-20 22:33:33 INFO unregistered client tcp4:127.0.0.1:55652
+2020-11-20 22:33:33 INFO static website requested: <Request at 0x7fb9eba68250 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:33 INFO Client connecting: tcp4:127.0.0.1:55654
+2020-11-20 22:33:33 INFO WebSocket connection open.
+2020-11-20 22:33:33 INFO registered client tcp4:127.0.0.1:55654
+2020-11-20 22:33:34 INFO WebSocket connection closed: None
+2020-11-20 22:33:34 INFO unregistered client tcp4:127.0.0.1:55654
+2020-11-20 22:33:34 INFO static website requested: <Request at 0x7fb9eba68460 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:34 INFO Client connecting: tcp4:127.0.0.1:55656
+2020-11-20 22:33:34 INFO WebSocket connection open.
+2020-11-20 22:33:34 INFO registered client tcp4:127.0.0.1:55656
+2020-11-20 22:33:35 INFO WebSocket connection closed: None
+2020-11-20 22:33:35 INFO unregistered client tcp4:127.0.0.1:55656
+2020-11-20 22:33:35 INFO static website requested: <Request at 0x7fb9eba68310 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:35 INFO Client connecting: tcp4:127.0.0.1:55658
+2020-11-20 22:33:35 INFO WebSocket connection open.
+2020-11-20 22:33:35 INFO registered client tcp4:127.0.0.1:55658
+2020-11-20 22:33:36 INFO WebSocket connection closed: None
+2020-11-20 22:33:36 INFO unregistered client tcp4:127.0.0.1:55658
+2020-11-20 22:33:36 INFO static website requested: <Request at 0x7fb9eba68430 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:37 INFO Client connecting: tcp4:127.0.0.1:55660
+2020-11-20 22:33:37 INFO WebSocket connection open.
+2020-11-20 22:33:37 INFO registered client tcp4:127.0.0.1:55660
+2020-11-20 22:33:37 INFO WebSocket connection closed: None
+2020-11-20 22:33:37 INFO unregistered client tcp4:127.0.0.1:55660
+2020-11-20 22:33:37 INFO static website requested: <Request at 0x7fb9eba68c70 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:38 INFO Client connecting: tcp4:127.0.0.1:55662
+2020-11-20 22:33:38 INFO WebSocket connection open.
+2020-11-20 22:33:38 INFO registered client tcp4:127.0.0.1:55662
+2020-11-20 22:33:39 INFO WebSocket connection closed: None
+2020-11-20 22:33:39 INFO unregistered client tcp4:127.0.0.1:55662
+2020-11-20 22:33:40 INFO static website requested: <Request at 0x7fb9eba68d30 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:40 INFO Client connecting: tcp4:127.0.0.1:55664
+2020-11-20 22:33:40 INFO WebSocket connection open.
+2020-11-20 22:33:40 INFO registered client tcp4:127.0.0.1:55664
+2020-11-20 22:33:42 INFO WebSocket connection closed: None
+2020-11-20 22:33:42 INFO unregistered client tcp4:127.0.0.1:55664
+2020-11-20 22:33:42 INFO static website requested: <Request at 0x7fb9eba68280 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:43 INFO Client connecting: tcp4:127.0.0.1:55666
+2020-11-20 22:33:43 INFO WebSocket connection open.
+2020-11-20 22:33:43 INFO registered client tcp4:127.0.0.1:55666
+2020-11-20 22:33:43 INFO WebSocket connection closed: None
+2020-11-20 22:33:43 INFO unregistered client tcp4:127.0.0.1:55666
+2020-11-20 22:33:44 INFO static website requested: <Request at 0x7fb9eba68550 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:44 INFO Client connecting: tcp4:127.0.0.1:55668
+2020-11-20 22:33:44 INFO WebSocket connection open.
+2020-11-20 22:33:44 INFO registered client tcp4:127.0.0.1:55668
+2020-11-20 22:33:45 INFO WebSocket connection closed: None
+2020-11-20 22:33:45 INFO unregistered client tcp4:127.0.0.1:55668
+2020-11-20 22:33:45 INFO static website requested: <Request at 0x7fb9eba68f10 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:33:45 INFO Client connecting: tcp4:127.0.0.1:55672
+2020-11-20 22:33:45 INFO WebSocket connection open.
+2020-11-20 22:33:45 INFO registered client tcp4:127.0.0.1:55672
+2020-11-20 22:33:47 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1511601925,2342690,2342690,2,23510'
+2020-11-20 22:33:47 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1511601925,2342690,2342690,2,23510'
+2020-11-20 22:33:47 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1511601925,2342690,2342690,1,23510'
+2020-11-20 22:33:47 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1511601925,2342690,2342690,2,23510'
+2020-11-20 22:33:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1511601925,2342690,2342690,2,23510,4.33'
+2020-11-20 22:33:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1511601925,2342690,2342690,1,23510,4.33'
+2020-11-20 22:33:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1511601925,2342690,2342690,2,23510,4.33'
+2020-11-20 22:33:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1511601925,2342690,2342690,2,23510,4.33'
+2020-11-20 22:33:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1511601925,2342690,2342690,2,23510,4.34'
+2020-11-20 22:33:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1511601925,2342690,2342690,1,23510,4.34'
+2020-11-20 22:33:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1511601925,2342690,2342690,2,23510,4.34'
+2020-11-20 22:37:55 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,251187529,2342690,2342690,2,9'
+2020-11-20 22:37:55 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,251187529,2342690,2342690,2,23510'
+2020-11-20 22:37:55 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,251187529,2342690,2342690,1,23510'
+2020-11-20 22:37:55 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,251187529,2342690,2342690,2,23510'
+2020-11-20 22:37:57 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,251187529,2342690,2342690,2,23510,2.65'
+2020-11-20 22:37:57 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,251187529,2342690,2342690,1,23510,2.65'
+2020-11-20 22:37:58 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,251187529,2342690,2342690,2,23510,2.65'
+2020-11-20 22:37:58 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,251187529,2342690,2342690,2,9,2.65'
+2020-11-20 22:37:58 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:691:stringReceived
+monitor.py:661:process_message
+]
+2020-11-20 22:38:00 INFO Initiating Connection to Server.
+2020-11-20 22:38:00 INFO Connected.
+2020-11-20 22:38:00 INFO Resetting reconnection delay
+2020-11-20 22:38:06 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:38:06 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:38:06 INFO unregistered client tcp4:127.0.0.1:55672
+2020-11-20 22:38:46 INFO monitor.py starting up
+2020-11-20 22:38:46 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:38:46 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:38:46 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:38:46 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:38:48 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:38:48 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:38:48 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:38:48 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:38:48 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f2eae29a5b0>
+2020-11-20 22:38:48 INFO Initiating Connection to Server.
+2020-11-20 22:38:48 INFO Connected.
+2020-11-20 22:38:48 INFO Resetting reconnection delay
+2020-11-20 22:39:09 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3325625659,2342690,2342690,2,9'
+2020-11-20 22:39:09 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3325625659,2342690,2342690,2,23510'
+2020-11-20 22:39:09 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3325625659,2342690,2342690,1,23510'
+2020-11-20 22:39:09 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3325625659,2342690,2342690,2,23510'
+2020-11-20 22:39:10 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3325625659,2342690,2342690,2,23510,0.90'
+2020-11-20 22:39:10 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3325625659,2342690,2342690,1,23510,0.90'
+2020-11-20 22:39:10 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3325625659,2342690,2342690,2,23510,0.90'
+2020-11-20 22:39:10 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3325625659,2342690,2342690,2,9,0.90'
+2020-11-20 22:39:10 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3325625659,2342690,2342690,2,23510,0.91'
+2020-11-20 22:39:10 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3325625659,2342690,2342690,1,23510,0.91'
+2020-11-20 22:39:10 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3325625659,2342690,2342690,2,23510,0.91'
+2020-11-20 22:39:15 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1061964549,2342690,2342690,2,9'
+2020-11-20 22:39:15 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1061964549,2342690,2342690,2,23510'
+2020-11-20 22:39:15 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1061964549,2342690,2342690,1,23510'
+2020-11-20 22:39:15 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1061964549,2342690,2342690,2,23510'
+2020-11-20 22:39:16 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1061964549,2342690,2342690,2,23510,0.85'
+2020-11-20 22:39:16 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1061964549,2342690,2342690,1,23510,0.85'
+2020-11-20 22:39:16 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1061964549,2342690,2342690,2,23510,0.85'
+2020-11-20 22:39:16 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1061964549,2342690,2342690,2,9,0.85'
+2020-11-20 22:39:16 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1061964549,2342690,2342690,2,23510,0.86'
+2020-11-20 22:39:16 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1061964549,2342690,2342690,1,23510,0.86'
+2020-11-20 22:39:16 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1061964549,2342690,2342690,2,23510,0.86'
+2020-11-20 22:39:24 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,356297010,2342690,2342690,2,9'
+2020-11-20 22:39:24 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,356297010,2342690,2342690,2,23510'
+2020-11-20 22:39:24 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,356297010,2342690,2342690,1,23510'
+2020-11-20 22:39:24 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,356297010,2342690,2342690,2,23510'
+2020-11-20 22:39:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,356297010,2342690,2342690,2,23510,0.80'
+2020-11-20 22:39:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,356297010,2342690,2342690,1,23510,0.80'
+2020-11-20 22:39:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,356297010,2342690,2342690,2,23510,0.80'
+2020-11-20 22:39:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,356297010,2342690,2342690,2,9,0.80'
+2020-11-20 22:39:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,356297010,2342690,2342690,2,23510,0.80'
+2020-11-20 22:39:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,356297010,2342690,2342690,1,23510,0.80'
+2020-11-20 22:39:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,356297010,2342690,2342690,2,23510,0.80'
+2020-11-20 22:39:42 INFO static website requested: <Request at 0x7f2eae5ac5e0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:39:42 INFO Client connecting: tcp4:127.0.0.1:55694
+2020-11-20 22:39:42 INFO WebSocket connection open.
+2020-11-20 22:39:42 INFO registered client tcp4:127.0.0.1:55694
+2020-11-20 22:39:43 INFO WebSocket connection closed: None
+2020-11-20 22:39:43 INFO unregistered client tcp4:127.0.0.1:55694
+2020-11-20 22:39:43 INFO static website requested: <Request at 0x7f2eae029af0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:39:44 INFO Client connecting: tcp4:127.0.0.1:55696
+2020-11-20 22:39:44 INFO WebSocket connection open.
+2020-11-20 22:39:44 INFO registered client tcp4:127.0.0.1:55696
+2020-11-20 22:39:56 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3187545215,2342690,2342690,2,9'
+2020-11-20 22:39:56 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3187545215,2342690,2342690,2,23510'
+2020-11-20 22:39:56 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3187545215,2342690,2342690,1,23510'
+2020-11-20 22:39:56 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3187545215,2342690,2342690,2,23510'
+2020-11-20 22:39:58 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3187545215,2342690,2342690,2,23510,2.62'
+2020-11-20 22:39:58 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3187545215,2342690,2342690,1,23510,2.62'
+2020-11-20 22:39:58 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3187545215,2342690,2342690,2,23510,2.62'
+2020-11-20 22:39:58 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3187545215,2342690,2342690,2,9,2.62'
+2020-11-20 22:39:58 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:691:stringReceived
+monitor.py:661:process_message
+]
+2020-11-20 22:40:01 INFO Initiating Connection to Server.
+2020-11-20 22:40:01 INFO Connected.
+2020-11-20 22:40:01 INFO Resetting reconnection delay
+2020-11-20 22:41:00 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:41:00 INFO unregistered client tcp4:127.0.0.1:55696
+2020-11-20 22:41:00 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:41:02 INFO monitor.py starting up
+2020-11-20 22:41:02 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:41:02 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:41:02 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:41:02 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:41:04 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:41:04 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:41:04 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:41:04 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:41:05 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f24459355b0>
+2020-11-20 22:41:05 INFO Initiating Connection to Server.
+2020-11-20 22:41:05 INFO Connected.
+2020-11-20 22:41:05 INFO Resetting reconnection delay
+2020-11-20 22:44:26 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2244147510,2342690,2342690,2,9'
+2020-11-20 22:44:27 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2244147510,2342690,2342690,2,23510'
+2020-11-20 22:44:27 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2244147510,2342690,2342690,1,23510'
+2020-11-20 22:44:27 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2244147510,2342690,2342690,2,23510'
+2020-11-20 22:44:27 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2244147510,2342690,2342690,2,23510,0.88'
+2020-11-20 22:44:27 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2244147510,2342690,2342690,1,23510,0.88'
+2020-11-20 22:44:27 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2244147510,2342690,2342690,2,23510,0.88'
+2020-11-20 22:44:27 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2244147510,2342690,2342690,2,9,0.88'
+2020-11-20 22:44:27 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'UnboundLocalError'>: local variable 'log_message' referenced before assignment
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:691:stringReceived
+monitor.py:661:process_message
+]
+2020-11-20 22:44:30 INFO Initiating Connection to Server.
+2020-11-20 22:44:30 INFO Connected.
+2020-11-20 22:44:30 INFO Resetting reconnection delay
+2020-11-20 22:44:58 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:44:59 INFO monitor.py starting up
+2020-11-20 22:44:59 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:44:59 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:44:59 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:45:00 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:45:02 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:45:02 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:45:02 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:45:02 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:45:02 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f59771d85b0>
+2020-11-20 22:45:02 INFO Initiating Connection to Server.
+2020-11-20 22:45:02 INFO Connected.
+2020-11-20 22:45:02 INFO Resetting reconnection delay
+2020-11-20 22:45:04 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,627185426,2342690,2342690,2,9'
+2020-11-20 22:45:04 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,627185426,2342690,2342690,2,23510'
+2020-11-20 22:45:04 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,627185426,2342690,2342690,1,23510'
+2020-11-20 22:45:04 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,627185426,2342690,2342690,2,23510'
+2020-11-20 22:45:05 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,627185426,2342690,2342690,2,23510,1.16'
+2020-11-20 22:45:05 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,627185426,2342690,2342690,1,23510,1.16'
+2020-11-20 22:45:05 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,627185426,2342690,2342690,2,23510,1.16'
+2020-11-20 22:45:05 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,627185426,2342690,2342690,2,9,1.16'
+2020-11-20 22:45:05 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,627185426,2342690,2342690,2,23510,1.17'
+2020-11-20 22:45:05 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,627185426,2342690,2342690,1,23510,1.17'
+2020-11-20 22:45:05 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,627185426,2342690,2342690,2,23510,1.17'
+2020-11-20 22:45:08 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1824050995,2342690,2342690,2,9'
+2020-11-20 22:45:08 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1824050995,2342690,2342690,2,23510'
+2020-11-20 22:45:08 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1824050995,2342690,2342690,1,23510'
+2020-11-20 22:45:08 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1824050995,2342690,2342690,2,23510'
+2020-11-20 22:45:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1824050995,2342690,2342690,2,23510,0.72'
+2020-11-20 22:45:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1824050995,2342690,2342690,1,23510,0.72'
+2020-11-20 22:45:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1824050995,2342690,2342690,2,23510,0.72'
+2020-11-20 22:45:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1824050995,2342690,2342690,2,9,0.72'
+2020-11-20 22:45:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1824050995,2342690,2342690,2,23510,0.73'
+2020-11-20 22:45:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1824050995,2342690,2342690,1,23510,0.73'
+2020-11-20 22:45:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1824050995,2342690,2342690,2,23510,0.73'
+2020-11-20 22:45:24 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,4236537877,2342690,2342690,2,9'
+2020-11-20 22:45:24 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,4236537877,2342690,2342690,2,23510'
+2020-11-20 22:45:24 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,4236537877,2342690,2342690,1,23510'
+2020-11-20 22:45:24 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,4236537877,2342690,2342690,2,23510'
+2020-11-20 22:45:24 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,4236537877,2342690,2342690,2,23510,0.52'
+2020-11-20 22:45:24 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,4236537877,2342690,2342690,1,23510,0.52'
+2020-11-20 22:45:24 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,4236537877,2342690,2342690,2,23510,0.52'
+2020-11-20 22:45:24 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,4236537877,2342690,2342690,2,9,0.52'
+2020-11-20 22:45:24 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,4236537877,2342690,2342690,2,23510,0.53'
+2020-11-20 22:45:24 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,4236537877,2342690,2342690,1,23510,0.53'
+2020-11-20 22:45:24 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,4236537877,2342690,2342690,2,23510,0.53'
+2020-11-20 22:45:33 INFO static website requested: <Request at 0x7f59774eab80 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:45:34 INFO Client connecting: tcp4:127.0.0.1:55742
+2020-11-20 22:45:34 INFO WebSocket connection open.
+2020-11-20 22:45:34 INFO registered client tcp4:127.0.0.1:55742
+2020-11-20 22:45:36 INFO WebSocket connection closed: None
+2020-11-20 22:45:36 INFO unregistered client tcp4:127.0.0.1:55742
+2020-11-20 22:45:36 INFO static website requested: <Request at 0x7f5976f67af0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:45:37 INFO Client connecting: tcp4:127.0.0.1:55744
+2020-11-20 22:45:37 INFO WebSocket connection open.
+2020-11-20 22:45:37 INFO registered client tcp4:127.0.0.1:55744
+2020-11-20 22:45:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2424724297,2342690,2342690,2,9'
+2020-11-20 22:45:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2424724297,2342690,2342690,2,23510'
+2020-11-20 22:45:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2424724297,2342690,2342690,1,23510'
+2020-11-20 22:45:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2424724297,2342690,2342690,2,23510'
+2020-11-20 22:45:41 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2424724297,2342690,2342690,2,23510,1.26'
+2020-11-20 22:45:41 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2424724297,2342690,2342690,1,23510,1.26'
+2020-11-20 22:45:41 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2424724297,2342690,2342690,2,23510,1.26'
+2020-11-20 22:45:41 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2424724297,2342690,2342690,2,9,1.26'
+2020-11-20 22:45:41 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2424724297,2342690,2342690,2,23510,1.27'
+2020-11-20 22:45:41 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2424724297,2342690,2342690,1,23510,1.27'
+2020-11-20 22:45:41 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2424724297,2342690,2342690,2,23510,1.27'
+2020-11-20 22:45:46 INFO WebSocket connection closed: None
+2020-11-20 22:45:46 INFO unregistered client tcp4:127.0.0.1:55744
+2020-11-20 22:45:46 INFO static website requested: <Request at 0x7f5973d7c490 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:45:46 INFO Client connecting: tcp4:127.0.0.1:55748
+2020-11-20 22:45:46 INFO WebSocket connection open.
+2020-11-20 22:45:46 INFO registered client tcp4:127.0.0.1:55748
+2020-11-20 22:45:48 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,4003383394,2342690,2342690,2,9'
+2020-11-20 22:45:48 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,4003383394,2342690,2342690,2,23510'
+2020-11-20 22:45:48 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,4003383394,2342690,2342690,1,23510'
+2020-11-20 22:45:48 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,4003383394,2342690,2342690,2,23510'
+2020-11-20 22:45:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,4003383394,2342690,2342690,2,23510,3.78'
+2020-11-20 22:45:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,4003383394,2342690,2342690,1,23510,3.78'
+2020-11-20 22:45:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,4003383394,2342690,2342690,2,23510,3.78'
+2020-11-20 22:45:52 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,4003383394,2342690,2342690,2,9,3.78'
+2020-11-20 22:45:52 INFO Lost connection.  Reason: [Failure instance: Traceback: <class 'ValueError'>: Unknown format code 's' for object of type 'int'
+/usr/local/lib/python3.8/dist-packages/twisted/python/log.py:86:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:122:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/python/context.py:85:callWithContext
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:627:_doReadOrWrite
+--- <exception caught here> ---
+/usr/local/lib/python3.8/dist-packages/twisted/internet/posixbase.py:614:_doReadOrWrite
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:243:doRead
+/usr/local/lib/python3.8/dist-packages/twisted/internet/tcp.py:249:_dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:180:dataReceived
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:225:_consumeData
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:352:_consumePayload
+/usr/local/lib/python3.8/dist-packages/twisted/protocols/basic.py:398:_processPayload
+monitor.py:691:stringReceived
+monitor.py:617:process_message
+]
+2020-11-20 22:45:55 INFO Initiating Connection to Server.
+2020-11-20 22:45:55 INFO Connected.
+2020-11-20 22:45:55 INFO Resetting reconnection delay
+2020-11-20 22:47:12 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:47:12 INFO unregistered client tcp4:127.0.0.1:55748
+2020-11-20 22:47:12 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:47:15 INFO monitor.py starting up
+2020-11-20 22:47:15 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:47:15 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:47:15 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:47:15 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:47:17 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:47:17 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:47:17 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:47:17 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:47:17 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f7d88a09370>
+2020-11-20 22:47:17 INFO Initiating Connection to Server.
+2020-11-20 22:47:17 INFO Connected.
+2020-11-20 22:47:17 INFO Resetting reconnection delay
+2020-11-20 22:47:28 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1341397044,2342690,2342690,2,9'
+2020-11-20 22:47:28 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1341397044,2342690,2342690,2,23510'
+2020-11-20 22:47:28 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1341397044,2342690,2342690,1,23510'
+2020-11-20 22:47:28 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1341397044,2342690,2342690,2,23510'
+2020-11-20 22:47:29 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1341397044,2342690,2342690,2,23510,0.90'
+2020-11-20 22:47:29 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1341397044,2342690,2342690,1,23510,0.90'
+2020-11-20 22:47:29 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1341397044,2342690,2342690,2,23510,0.90'
+2020-11-20 22:47:29 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1341397044,2342690,2342690,2,9,0.90'
+2020-11-20 22:47:29 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1341397044,2342690,2342690,2,23510,0.90'
+2020-11-20 22:47:29 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1341397044,2342690,2342690,1,23510,0.90'
+2020-11-20 22:47:29 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1341397044,2342690,2342690,2,23510,0.90'
+2020-11-20 22:47:35 INFO static website requested: <Request at 0x7f7d85d0c8b0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:47:35 INFO Client connecting: tcp4:127.0.0.1:55762
+2020-11-20 22:47:35 INFO WebSocket connection open.
+2020-11-20 22:47:35 INFO registered client tcp4:127.0.0.1:55762
+2020-11-20 22:47:56 INFO WebSocket connection closed: None
+2020-11-20 22:47:56 INFO unregistered client tcp4:127.0.0.1:55762
+2020-11-20 22:47:56 INFO static website requested: <Request at 0x7f7d855adf70 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:47:57 INFO Client connecting: tcp4:127.0.0.1:55768
+2020-11-20 22:47:57 INFO WebSocket connection open.
+2020-11-20 22:47:57 INFO registered client tcp4:127.0.0.1:55768
+2020-11-20 22:47:58 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3787644424,2342690,2342690,2,9'
+2020-11-20 22:47:58 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3787644424,2342690,2342690,2,23510'
+2020-11-20 22:47:58 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3787644424,2342690,2342690,1,23510'
+2020-11-20 22:47:58 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3787644424,2342690,2342690,2,23510'
+2020-11-20 22:48:02 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3787644424,2342690,2342690,2,23510,3.39'
+2020-11-20 22:48:02 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3787644424,2342690,2342690,1,23510,3.39'
+2020-11-20 22:48:02 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3787644424,2342690,2342690,2,23510,3.39'
+2020-11-20 22:48:02 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3787644424,2342690,2342690,2,9,3.39'
+2020-11-20 22:48:02 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3787644424,2342690,2342690,2,23510,3.39'
+2020-11-20 22:48:02 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3787644424,2342690,2342690,1,23510,3.39'
+2020-11-20 22:48:02 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3787644424,2342690,2342690,2,23510,3.39'
+2020-11-20 22:48:12 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1253482282,2342690,2342690,2,9'
+2020-11-20 22:48:13 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1253482282,2342690,2342690,2,23510'
+2020-11-20 22:48:13 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1253482282,2342690,2342690,1,23510'
+2020-11-20 22:48:13 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1253482282,2342690,2342690,2,23510'
+2020-11-20 22:48:18 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1253482282,2342690,2342690,2,23510,5.53'
+2020-11-20 22:48:18 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1253482282,2342690,2342690,1,23510,5.53'
+2020-11-20 22:48:18 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1253482282,2342690,2342690,2,23510,5.53'
+2020-11-20 22:48:18 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1253482282,2342690,2342690,2,9,5.53'
+2020-11-20 22:48:18 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1253482282,2342690,2342690,2,23510,5.54'
+2020-11-20 22:48:18 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1253482282,2342690,2342690,1,23510,5.54'
+2020-11-20 22:48:18 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1253482282,2342690,2342690,2,23510,5.54'
+2020-11-20 22:48:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3255518465,2342690,2342690,2,9'
+2020-11-20 22:48:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3255518465,2342690,2342690,2,23510'
+2020-11-20 22:48:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3255518465,2342690,2342690,1,23510'
+2020-11-20 22:48:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3255518465,2342690,2342690,2,23510'
+2020-11-20 22:48:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3255518465,2342690,2342690,2,23510,1.23'
+2020-11-20 22:48:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3255518465,2342690,2342690,1,23510,1.23'
+2020-11-20 22:48:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3255518465,2342690,2342690,2,23510,1.23'
+2020-11-20 22:48:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3255518465,2342690,2342690,2,9,1.23'
+2020-11-20 22:48:35 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3255518465,2342690,2342690,2,23510,1.24'
+2020-11-20 22:48:36 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3255518465,2342690,2342690,1,23510,1.24'
+2020-11-20 22:48:36 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3255518465,2342690,2342690,2,23510,1.24'
+2020-11-20 22:49:23 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:49:23 INFO unregistered client tcp4:127.0.0.1:55768
+2020-11-20 22:49:23 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:49:25 INFO monitor.py starting up
+2020-11-20 22:49:25 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:49:25 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:49:25 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:49:25 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:49:28 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:49:28 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:49:28 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:49:28 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:49:28 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7fc3a0d165b0>
+2020-11-20 22:49:28 INFO Initiating Connection to Server.
+2020-11-20 22:49:28 INFO Connected.
+2020-11-20 22:49:28 INFO Resetting reconnection delay
+2020-11-20 22:49:29 INFO static website requested: <Request at 0x7fc39faec6d0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:49:30 INFO Client connecting: tcp4:127.0.0.1:55776
+2020-11-20 22:49:30 INFO WebSocket connection open.
+2020-11-20 22:49:30 INFO registered client tcp4:127.0.0.1:55776
+2020-11-20 22:49:41 INFO WebSocket connection closed: None
+2020-11-20 22:49:41 INFO unregistered client tcp4:127.0.0.1:55776
+2020-11-20 22:49:41 INFO static website requested: <Request at 0x7fc3a0a25370 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:49:42 INFO Client connecting: tcp4:127.0.0.1:55778
+2020-11-20 22:49:42 INFO WebSocket connection open.
+2020-11-20 22:49:42 INFO registered client tcp4:127.0.0.1:55778
+2020-11-20 22:49:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3467354134,2342690,2342690,2,9'
+2020-11-20 22:49:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3467354134,2342690,2342690,2,23510'
+2020-11-20 22:49:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3467354134,2342690,2342690,1,23510'
+2020-11-20 22:49:52 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3467354134,2342690,2342690,2,23510'
+2020-11-20 22:49:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3467354134,2342690,2342690,2,23510,2.66'
+2020-11-20 22:49:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3467354134,2342690,2342690,1,23510,2.66'
+2020-11-20 22:49:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3467354134,2342690,2342690,2,23510,2.66'
+2020-11-20 22:49:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3467354134,2342690,2342690,2,9,2.66'
+2020-11-20 22:49:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3467354134,2342690,2342690,2,23510,2.67'
+2020-11-20 22:49:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3467354134,2342690,2342690,1,23510,2.67'
+2020-11-20 22:49:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3467354134,2342690,2342690,2,23510,2.67'
+2020-11-20 22:54:21 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3912969992,2342690,2342690,2,9'
+2020-11-20 22:54:21 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3912969992,2342690,2342690,2,23510'
+2020-11-20 22:54:21 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3912969992,2342690,2342690,1,23510'
+2020-11-20 22:54:21 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3912969992,2342690,2342690,2,23510'
+2020-11-20 22:54:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3912969992,2342690,2342690,2,23510,4.08'
+2020-11-20 22:54:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3912969992,2342690,2342690,1,23510,4.08'
+2020-11-20 22:54:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3912969992,2342690,2342690,2,23510,4.08'
+2020-11-20 22:54:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3912969992,2342690,2342690,2,9,4.08'
+2020-11-20 22:54:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3912969992,2342690,2342690,2,23510,4.09'
+2020-11-20 22:54:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3912969992,2342690,2342690,1,23510,4.09'
+2020-11-20 22:54:25 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3912969992,2342690,2342690,2,23510,4.09'
+2020-11-20 22:54:48 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 22:54:49 INFO unregistered client tcp4:127.0.0.1:55778
+2020-11-20 22:54:49 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 22:58:33 INFO monitor.py starting up
+2020-11-20 22:58:33 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 22:58:33 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 22:58:33 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 22:58:33 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 22:58:35 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 22:58:35 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 22:58:35 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 22:58:35 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 22:58:36 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7fb4c1539580>
+2020-11-20 22:58:36 INFO Initiating Connection to Server.
+2020-11-20 22:58:36 INFO Connected.
+2020-11-20 22:58:36 INFO Resetting reconnection delay
+2020-11-20 22:58:36 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2069934138,2342690,2342690,2,9'
+2020-11-20 22:58:36 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2069934138,2342690,2342690,2,23510'
+2020-11-20 22:58:36 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2069934138,2342690,2342690,1,23510'
+2020-11-20 22:58:36 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2069934138,2342690,2342690,2,23510'
+2020-11-20 22:58:37 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2069934138,2342690,2342690,2,23510,0.84'
+2020-11-20 22:58:37 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2069934138,2342690,2342690,1,23510,0.84'
+2020-11-20 22:58:37 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2069934138,2342690,2342690,2,23510,0.84'
+2020-11-20 22:58:37 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2069934138,2342690,2342690,2,9,0.84'
+2020-11-20 22:58:37 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2069934138,2342690,2342690,2,23510,0.85'
+2020-11-20 22:58:37 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2069934138,2342690,2342690,1,23510,0.85'
+2020-11-20 22:58:37 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2069934138,2342690,2342690,2,23510,0.85'
+2020-11-20 22:58:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3567197249,2342690,2342690,2,9'
+2020-11-20 22:58:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3567197249,2342690,2342690,2,23510'
+2020-11-20 22:58:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3567197249,2342690,2342690,1,23510'
+2020-11-20 22:58:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3567197249,2342690,2342690,2,23510'
+2020-11-20 22:58:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3567197249,2342690,2342690,2,23510,0.89'
+2020-11-20 22:58:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3567197249,2342690,2342690,1,23510,0.89'
+2020-11-20 22:58:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3567197249,2342690,2342690,2,23510,0.89'
+2020-11-20 22:58:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3567197249,2342690,2342690,2,9,0.89'
+2020-11-20 22:58:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3567197249,2342690,2342690,2,23510,0.89'
+2020-11-20 22:58:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3567197249,2342690,2342690,1,23510,0.89'
+2020-11-20 22:58:43 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3567197249,2342690,2342690,2,23510,0.89'
+2020-11-20 22:58:54 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,4180540978,2342690,2342690,2,9'
+2020-11-20 22:58:54 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,4180540978,2342690,2342690,2,23510'
+2020-11-20 22:58:54 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,4180540978,2342690,2342690,1,23510'
+2020-11-20 22:58:54 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,4180540978,2342690,2342690,2,23510'
+2020-11-20 22:58:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,4180540978,2342690,2342690,2,23510,0.82'
+2020-11-20 22:58:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,4180540978,2342690,2342690,1,23510,0.82'
+2020-11-20 22:58:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,4180540978,2342690,2342690,2,23510,0.82'
+2020-11-20 22:58:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,4180540978,2342690,2342690,2,9,0.82'
+2020-11-20 22:58:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,4180540978,2342690,2342690,2,23510,0.82'
+2020-11-20 22:58:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,4180540978,2342690,2342690,1,23510,0.82'
+2020-11-20 22:58:55 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,4180540978,2342690,2342690,2,23510,0.82'
+2020-11-20 22:59:05 INFO static website requested: <Request at 0x7fb4bdfa7c10 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 22:59:05 INFO Client connecting: tcp4:127.0.0.1:55808
+2020-11-20 22:59:05 INFO WebSocket connection open.
+2020-11-20 22:59:05 INFO registered client tcp4:127.0.0.1:55808
+2020-11-20 22:59:08 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,3340726570,2342690,2342690,2,9'
+2020-11-20 22:59:08 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,3340726570,2342690,2342690,2,23510'
+2020-11-20 22:59:08 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,3340726570,2342690,2342690,1,23510'
+2020-11-20 22:59:08 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,3340726570,2342690,2342690,2,23510'
+2020-11-20 22:59:12 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3340726570,2342690,2342690,2,23510,4.50'
+2020-11-20 22:59:12 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3340726570,2342690,2342690,1,23510,4.50'
+2020-11-20 22:59:12 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3340726570,2342690,2342690,2,23510,4.50'
+2020-11-20 22:59:12 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,3340726570,2342690,2342690,2,9,4.50'
+2020-11-20 22:59:12 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,3340726570,2342690,2342690,2,23510,4.51'
+2020-11-20 22:59:12 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,3340726570,2342690,2342690,1,23510,4.51'
+2020-11-20 22:59:12 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,3340726570,2342690,2342690,2,23510,4.51'
+2020-11-20 22:59:26 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,750105674,2342690,2342690,2,9'
+2020-11-20 22:59:26 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,750105674,2342690,2342690,2,23510'
+2020-11-20 22:59:26 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,750105674,2342690,2342690,1,23510'
+2020-11-20 22:59:26 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,750105674,2342690,2342690,2,23510'
+2020-11-20 22:59:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,750105674,2342690,2342690,2,23510,4.07'
+2020-11-20 22:59:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,750105674,2342690,2342690,1,23510,4.07'
+2020-11-20 22:59:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,750105674,2342690,2342690,2,23510,4.07'
+2020-11-20 22:59:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,750105674,2342690,2342690,2,9,4.07'
+2020-11-20 22:59:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,750105674,2342690,2342690,2,23510,4.07'
+2020-11-20 22:59:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,750105674,2342690,2342690,1,23510,4.07'
+2020-11-20 22:59:30 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,750105674,2342690,2342690,2,23510,4.07'
+2020-11-20 22:59:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1749057602,2342690,2342690,2,9'
+2020-11-20 22:59:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1749057602,2342690,2342690,2,23510'
+2020-11-20 22:59:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1749057602,2342690,2342690,1,23510'
+2020-11-20 22:59:34 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1749057602,2342690,2342690,2,23510'
+2020-11-20 22:59:38 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1749057602,2342690,2342690,2,23510,4.07'
+2020-11-20 22:59:38 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1749057602,2342690,2342690,1,23510,4.07'
+2020-11-20 22:59:38 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1749057602,2342690,2342690,2,23510,4.07'
+2020-11-20 22:59:38 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1749057602,2342690,2342690,2,9,4.07'
+2020-11-20 22:59:38 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1749057602,2342690,2342690,2,23510,4.07'
+2020-11-20 22:59:38 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1749057602,2342690,2342690,1,23510,4.07'
+2020-11-20 22:59:38 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1749057602,2342690,2342690,2,23510,4.07'
+2020-11-20 22:59:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2585519138,2342690,2342690,2,9'
+2020-11-20 22:59:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2585519138,2342690,2342690,2,23510'
+2020-11-20 22:59:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2585519138,2342690,2342690,1,23510'
+2020-11-20 22:59:42 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2585519138,2342690,2342690,2,23510'
+2020-11-20 22:59:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2585519138,2342690,2342690,2,23510,6.54'
+2020-11-20 22:59:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2585519138,2342690,2342690,1,23510,6.54'
+2020-11-20 22:59:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2585519138,2342690,2342690,2,23510,6.54'
+2020-11-20 22:59:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2585519138,2342690,2342690,2,9,6.54'
+2020-11-20 22:59:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2585519138,2342690,2342690,2,23510,6.55'
+2020-11-20 22:59:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2585519138,2342690,2342690,1,23510,6.55'
+2020-11-20 22:59:48 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2585519138,2342690,2342690,2,23510,6.55'
+2020-11-20 23:00:11 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 23:00:11 INFO unregistered client tcp4:127.0.0.1:55808
+2020-11-20 23:00:11 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
