@@ -521,7 +521,7 @@ def rts_update(p):
                         for _bridgesystem in BRIDGES[_bridge]:
                             if system == _bridgesystem['SYSTEM'] and _bridgesystem['ACTIVE'] == True and int_id(_bridgesystem['TGID']) == 9:
                                 _refdest = int(_bridge[1:])
-                                CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['DEST'] = '{} ({})'.format(alias_tgid(_refdest,talkgroup_ids),"Reflector: "+str(destination))
+                                CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['DEST'] = '{} ({})'.format(alias_tgid(_refdest,talkgroup_ids),"Rewrite to: "+str(destination))
                 else:
                     CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['DEST'] = '{} ({})'.format(alias_tgid(destination,talkgroup_ids),destination)
             if action == 'END':
