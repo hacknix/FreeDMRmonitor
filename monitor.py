@@ -516,7 +516,7 @@ def rts_update(p):
                 CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['TYPE'] = callType
                 CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['SUB'] = '{} ({})'.format(alias_short(sourceSub, subscriber_ids), sourceSub)
                 CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['SRC'] = peer
-                if destination == 9:
+                if destination == 9 and timeSlot == 2:
                     for _bridge in BRIDGES:
                         for _bridgesystem in BRIDGES[_bridge]:
                             if system == _bridgesystem['SYSTEM'] and _bridgesystem['ACTIVE'] == True and int_id(_bridgesystem['TGID']) == 9:

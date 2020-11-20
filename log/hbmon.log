@@ -909,3 +909,126 @@ monitor.py:524:rts_update
 2020-11-20 18:52:38 INFO unregistered client tcp4:127.0.0.1:54782
 2020-11-20 18:52:38 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
 ]
+2020-11-20 18:54:23 INFO monitor.py starting up
+2020-11-20 18:54:23 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-20 18:54:23 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-20 18:54:23 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-20 18:54:23 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-20 18:54:25 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-20 18:54:25 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-20 18:54:25 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-20 18:54:25 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-20 18:54:25 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f2dc1352190>
+2020-11-20 18:54:25 INFO Initiating Connection to Server.
+2020-11-20 18:54:25 INFO Connected.
+2020-11-20 18:54:25 INFO Resetting reconnection delay
+2020-11-20 18:54:37 INFO static website requested: <Request at 0x7f2dbe8dc6a0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:54:38 INFO Client connecting: tcp4:127.0.0.1:54794
+2020-11-20 18:54:38 INFO WebSocket connection open.
+2020-11-20 18:54:38 INFO registered client tcp4:127.0.0.1:54794
+2020-11-20 18:54:43 INFO WebSocket connection closed: None
+2020-11-20 18:54:43 INFO unregistered client tcp4:127.0.0.1:54794
+2020-11-20 18:54:44 INFO static website requested: <Request at 0x7f2dc136cdf0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:54:44 INFO static website requested: <Request at 0x7f2dbe347bb0 method=GET uri=/favicon.ico clientproto=HTTP/1.1>
+2020-11-20 18:54:44 INFO Client connecting: tcp4:127.0.0.1:54796
+2020-11-20 18:54:44 INFO WebSocket connection open.
+2020-11-20 18:54:44 INFO registered client tcp4:127.0.0.1:54796
+2020-11-20 18:54:45 INFO WebSocket connection closed: None
+2020-11-20 18:54:45 INFO unregistered client tcp4:127.0.0.1:54796
+2020-11-20 18:54:45 INFO static website requested: <Request at 0x7f2dc2970340 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:54:45 INFO Client connecting: tcp4:127.0.0.1:54798
+2020-11-20 18:54:45 INFO WebSocket connection open.
+2020-11-20 18:54:45 INFO registered client tcp4:127.0.0.1:54798
+2020-11-20 18:54:45 INFO static website requested: <Request at 0x7f2dc136cdf0 method=GET uri=/favicon.ico clientproto=HTTP/1.1>
+2020-11-20 18:54:46 INFO WebSocket connection closed: None
+2020-11-20 18:54:46 INFO unregistered client tcp4:127.0.0.1:54798
+2020-11-20 18:54:46 INFO static website requested: <Request at 0x7f2dc29703a0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:54:47 INFO Client connecting: tcp4:127.0.0.1:54802
+2020-11-20 18:54:47 INFO WebSocket connection open.
+2020-11-20 18:54:47 INFO registered client tcp4:127.0.0.1:54802
+2020-11-20 18:54:47 INFO WebSocket connection closed: None
+2020-11-20 18:54:47 INFO unregistered client tcp4:127.0.0.1:54802
+2020-11-20 18:54:48 INFO static website requested: <Request at 0x7f2dc2970340 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:54:48 INFO Client connecting: tcp4:127.0.0.1:54804
+2020-11-20 18:54:48 INFO WebSocket connection open.
+2020-11-20 18:54:48 INFO registered client tcp4:127.0.0.1:54804
+2020-11-20 18:54:50 INFO WebSocket connection closed: None
+2020-11-20 18:54:50 INFO unregistered client tcp4:127.0.0.1:54804
+2020-11-20 18:54:50 INFO static website requested: <Request at 0x7f2dc29703a0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:54:51 INFO Client connecting: tcp4:127.0.0.1:54806
+2020-11-20 18:54:51 INFO WebSocket connection open.
+2020-11-20 18:54:51 INFO registered client tcp4:127.0.0.1:54806
+2020-11-20 18:54:51 INFO WebSocket connection closed: None
+2020-11-20 18:54:51 INFO unregistered client tcp4:127.0.0.1:54806
+2020-11-20 18:54:52 INFO static website requested: <Request at 0x7f2dc18ab880 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:54:52 INFO Client connecting: tcp4:127.0.0.1:54808
+2020-11-20 18:54:52 INFO WebSocket connection open.
+2020-11-20 18:54:52 INFO registered client tcp4:127.0.0.1:54808
+2020-11-20 18:54:52 INFO WebSocket connection closed: None
+2020-11-20 18:54:52 INFO unregistered client tcp4:127.0.0.1:54808
+2020-11-20 18:54:53 INFO static website requested: <Request at 0x7f2dbad78100 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:54:53 INFO Client connecting: tcp4:127.0.0.1:54810
+2020-11-20 18:54:53 INFO WebSocket connection open.
+2020-11-20 18:54:53 INFO registered client tcp4:127.0.0.1:54810
+2020-11-20 18:54:54 INFO WebSocket connection closed: None
+2020-11-20 18:54:54 INFO unregistered client tcp4:127.0.0.1:54810
+2020-11-20 18:54:54 INFO static website requested: <Request at 0x7f2dbad785e0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:54:55 INFO Client connecting: tcp4:127.0.0.1:54812
+2020-11-20 18:54:55 INFO WebSocket connection open.
+2020-11-20 18:54:55 INFO registered client tcp4:127.0.0.1:54812
+2020-11-20 18:54:55 INFO static website requested: <Request at 0x7f2dc18ab880 method=GET uri=/favicon.ico clientproto=HTTP/1.1>
+2020-11-20 18:54:55 INFO WebSocket connection closed: None
+2020-11-20 18:54:55 INFO unregistered client tcp4:127.0.0.1:54812
+2020-11-20 18:54:56 INFO static website requested: <Request at 0x7f2dc15d9550 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:54:56 INFO Client connecting: tcp4:127.0.0.1:54814
+2020-11-20 18:54:56 INFO WebSocket connection open.
+2020-11-20 18:54:56 INFO registered client tcp4:127.0.0.1:54814
+2020-11-20 18:54:57 INFO WebSocket connection closed: None
+2020-11-20 18:54:57 INFO unregistered client tcp4:127.0.0.1:54814
+2020-11-20 18:54:58 INFO static website requested: <Request at 0x7f2dbad78940 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:54:58 INFO Client connecting: tcp4:127.0.0.1:54816
+2020-11-20 18:54:58 INFO WebSocket connection open.
+2020-11-20 18:54:58 INFO registered client tcp4:127.0.0.1:54816
+2020-11-20 18:54:59 INFO WebSocket connection closed: None
+2020-11-20 18:54:59 INFO unregistered client tcp4:127.0.0.1:54816
+2020-11-20 18:54:59 INFO static website requested: <Request at 0x7f2dbad78cd0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:55:00 INFO Client connecting: tcp4:127.0.0.1:54820
+2020-11-20 18:55:00 INFO WebSocket connection open.
+2020-11-20 18:55:00 INFO registered client tcp4:127.0.0.1:54820
+2020-11-20 18:55:01 INFO WebSocket connection closed: None
+2020-11-20 18:55:01 INFO unregistered client tcp4:127.0.0.1:54820
+2020-11-20 18:55:02 INFO static website requested: <Request at 0x7f2dbad78cd0 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:55:02 INFO Client connecting: tcp4:127.0.0.1:54822
+2020-11-20 18:55:02 INFO WebSocket connection open.
+2020-11-20 18:55:02 INFO registered client tcp4:127.0.0.1:54822
+2020-11-20 18:55:04 INFO WebSocket connection closed: None
+2020-11-20 18:55:04 INFO unregistered client tcp4:127.0.0.1:54822
+2020-11-20 18:55:04 INFO static website requested: <Request at 0x7f2dbe187400 method=GET uri=/ clientproto=HTTP/1.1>
+2020-11-20 18:55:05 INFO Client connecting: tcp4:127.0.0.1:54826
+2020-11-20 18:55:05 INFO WebSocket connection open.
+2020-11-20 18:55:05 INFO registered client tcp4:127.0.0.1:54826
+2020-11-20 18:55:07 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1595978596,2342690,2342690,2,9'
+2020-11-20 18:55:07 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1595978596,2342690,2342690,2,23510'
+2020-11-20 18:55:07 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1595978596,2342690,2342690,1,23510'
+2020-11-20 18:55:07 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,1595978596,2342690,2342690,2,23510'
+2020-11-20 18:55:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1595978596,2342690,2342690,2,23510,1.26'
+2020-11-20 18:55:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1595978596,2342690,2342690,1,23510,1.26'
+2020-11-20 18:55:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1595978596,2342690,2342690,2,23510,1.26'
+2020-11-20 18:55:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1595978596,2342690,2342690,2,9,1.26'
+2020-11-20 18:55:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1595978596,2342690,2342690,2,23510,1.26'
+2020-11-20 18:55:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1595978596,2342690,2342690,1,23510,1.26'
+2020-11-20 18:55:08 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1595978596,2342690,2342690,2,23510,1.26'
+2020-11-20 18:55:16 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-20 18:55:16 INFO WebSocket connection closed: connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2020-11-20 18:55:16 INFO unregistered client tcp4:127.0.0.1:54826
