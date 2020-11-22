@@ -516,13 +516,15 @@ def rts_update(p):
                 CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['TYPE'] = callType
                 CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['SUB'] = '{} ({})'.format(alias_short(sourceSub, subscriber_ids), sourceSub)
                 CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['SRC'] = peer
+                _matchsystem = False
                 if destination == 9 and timeSlot == 2:
                     for _bridge in BRIDGES:
                         for _bridgesystem in BRIDGES[_bridge]:
                             if system == _bridgesystem['SYSTEM'] and _bridgesystem['ACTIVE'] == True and int_id(_bridgesystem['TGID']) == 9:
                                 _refdest = int(_bridge[1:])
                                 CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['DEST'] = '{} ({})'.format(alias_tgid(_refdest,talkgroup_ids),"RW: "+str(destination))
-                else:
+                                _matchsystem = True
+                if _matchsystem == False:
                     CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['DEST'] = '{} ({})'.format(alias_tgid(destination,talkgroup_ids),destination)
             if action == 'END':
                 CTABLE['MASTERS'][system]['PEERS'][peer][timeSlot]['TS'] = False
@@ -622,14 +624,16 @@ def process_message(_bmessage):
                 # log only to file if system is NOT OpenBridge event (not logging open bridge system, name depends on your OB definitions) AND transmit time is LONGER as 2sec (make sense for very short transmits)
                 if LASTHEARD_INC:
                    if int(float(p[9]))> 2:
+                      _matchsystem = False
                       if (int(p[8]) == 9) and (int(p[7]) == 2) and BRIDGES:
                         for _bridge in BRIDGES:
                             for _bridgesystem in BRIDGES[_bridge]:
                                 if p[3] == _bridgesystem['SYSTEM'] and _bridgesystem['ACTIVE'] == True and int_id(_bridgesystem['TGID']) == 9:
                                     _refdest = str(_bridge[1:])
                                     log_lh_message = '{},{},{},{},{},{},{},TS{},TG{},{},{},{}'.format(_now, p[9], p[0], p[1], p[3], p[5], alias_call(int(p[5]), subscriber_ids), p[7], _refdest,alias_tgid(int(_refdest),talkgroup_ids)+" (RW: 9)",p[6], alias_short(int(p[6]), subscriber_ids))
+                                    _matchsystem = True
                       
-                      else:
+                      if _matchsystem == False:
                         log_lh_message = '{},{},{},{},{},{},{},TS{},TG{},{},{},{}'.format(_now, p[9], p[0], p[1], p[3], p[5], alias_call(int(p[5]), subscriber_ids), p[7], p[8],alias_tgid(int(p[8]),talkgroup_ids),p[6], alias_short(int(p[6]), subscriber_ids))  
                           
                       lh_logfile = open(LOG_PATH+"lastheard.log", "a")

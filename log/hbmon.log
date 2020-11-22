@@ -2914,3 +2914,29 @@ monitor.py:617:process_message
 2020-11-22 10:41:05 INFO Resetting reconnection delay
 2020-11-22 10:41:41 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
 ]
+2020-11-22 15:00:53 INFO monitor.py starting up
+2020-11-22 15:00:53 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-22 15:00:54 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-22 15:00:54 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-22 15:00:55 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-22 15:00:57 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-22 15:00:57 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-22 15:00:57 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-22 15:01:00 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f9fc3efe5e0>
+2020-11-22 15:01:00 INFO Initiating Connection to Server.
+2020-11-22 15:01:00 INFO Connected.
+2020-11-22 15:01:00 INFO Resetting reconnection delay
+2020-11-22 15:01:01 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2284050945,2342690,2342690,2,7'
+2020-11-22 15:01:02 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2284050945,2342690,2342690,2,7,0.88'
+2020-11-22 15:01:05 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
