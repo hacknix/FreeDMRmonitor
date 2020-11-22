@@ -2804,3 +2804,113 @@ monitor.py:617:process_message
 2020-11-20 23:00:11 INFO unregistered client tcp4:127.0.0.1:55808
 2020-11-20 23:00:11 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
 ]
+2020-11-21 00:24:08 INFO monitor.py starting up
+2020-11-21 00:24:08 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-21 00:24:08 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-21 00:24:08 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-21 00:24:08 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-21 00:24:10 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-21 00:24:10 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-21 00:24:10 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-21 00:24:10 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-21 00:24:13 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f57618f9580>
+2020-11-21 00:24:13 INFO Initiating Connection to Server.
+2020-11-21 00:24:13 INFO Connected.
+2020-11-21 00:24:13 INFO Resetting reconnection delay
+2020-11-21 00:24:36 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1415097927,2342690,2342690,2,23510'
+2020-11-21 00:24:40 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1415097927,2342690,2342690,2,23510,3.31'
+2020-11-21 00:24:40 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1415097927,2342690,2342690,2,23510,5098.14'
+2020-11-21 00:24:40 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1415097927,2342690,2342690,1,23510,5098.14'
+2020-11-21 00:24:40 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,1415097927,2342690,2342690,2,23510,5098.14'
+2020-11-21 00:24:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,1250178877,2342690,2342690,2,23510'
+2020-11-21 00:24:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,1250178877,2342690,2342690,2,23510'
+2020-11-21 00:24:40 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,1250178877,2342690,2342690,1,23510'
+2020-11-21 00:24:50 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,1250178877,2342690,2342690,2,23510,0.22'
+2020-11-21 00:24:50 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,1250178877,2342690,2342690,2,23510,0.22'
+2020-11-21 00:24:50 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,1250178877,2342690,2342690,1,23510,0.22'
+2020-11-21 00:24:54 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,2926699852,2342690,2342690,2,23510'
+2020-11-21 00:24:54 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,2926699852,2342690,2342690,2,23510'
+2020-11-21 00:24:54 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,2926699852,2342690,2342690,1,23510'
+2020-11-21 00:24:54 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,2926699852,2342690,2342690,2,23510'
+2020-11-21 00:24:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2926699852,2342690,2342690,2,23510,1.26'
+2020-11-21 00:24:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2926699852,2342690,2342690,1,23510,1.26'
+2020-11-21 00:24:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2926699852,2342690,2342690,2,23510,1.26'
+2020-11-21 00:24:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,2926699852,2342690,2342690,2,23510,1.26'
+2020-11-21 00:24:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,2926699852,2342690,2342690,2,23510,1.27'
+2020-11-21 00:24:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,2926699852,2342690,2342690,1,23510,1.27'
+2020-11-21 00:24:56 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,2926699852,2342690,2342690,2,23510,1.27'
+2020-11-21 00:25:00 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-22 10:36:45 INFO monitor.py starting up
+2020-11-22 10:36:45 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-22 10:36:45 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2020-11-22 10:36:45 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2020-11-22 10:36:46 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-22 10:36:50 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-22 10:36:50 INFO ID ALIAS MAPPER: talkgroup_ids dictionary is available
+2020-11-22 10:36:50 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-22 10:36:50 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-22 10:36:53 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7f578cf26580>
+2020-11-22 10:36:53 INFO Initiating Connection to Server.
+2020-11-22 10:36:53 INFO Connection failed. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 111: Connection refused.
+]
+2020-11-22 10:36:56 INFO Initiating Connection to Server.
+2020-11-22 10:36:56 INFO Connected.
+2020-11-22 10:36:56 INFO Resetting reconnection delay
+2020-11-22 10:37:43 INFO BRIDGE EVENT: 'GROUP VOICE,START,RX,G7RZU,4151853941,2342690,2342690,2,9'
+2020-11-22 10:37:43 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7BC,4151853941,2342690,2342690,2,23510'
+2020-11-22 10:37:43 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,GB7FR,4151853941,2342690,2342690,1,23510'
+2020-11-22 10:37:43 INFO BRIDGE EVENT: 'GROUP VOICE,START,TX,MB6NG,4151853941,2342690,2342690,2,23510'
+2020-11-22 10:37:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,4151853941,2342690,2342690,2,23510,0.85'
+2020-11-22 10:37:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,4151853941,2342690,2342690,1,23510,0.85'
+2020-11-22 10:37:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,4151853941,2342690,2342690,2,23510,0.85'
+2020-11-22 10:37:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,RX,G7RZU,4151853941,2342690,2342690,2,9,0.85'
+2020-11-22 10:37:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7BC,4151853941,2342690,2342690,2,23510,0.85'
+2020-11-22 10:37:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,GB7FR,4151853941,2342690,2342690,1,23510,0.85'
+2020-11-22 10:37:44 INFO BRIDGE EVENT: 'GROUP VOICE,END,TX,MB6NG,4151853941,2342690,2342690,2,23510,0.85'
+2020-11-22 10:37:55 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2020-11-22 10:40:53 INFO monitor.py starting up
+2020-11-22 10:40:53 INFO 
+
+	Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+	Python 3 port:
+	2019 Steve Miller, KC1AWV <smiller@kc1awv.net>
+
+	Version by:	 SP2ONG 2019-2020
+
+
+2020-11-22 10:40:55 INFO ID ALIAS MAPPER: 'peer_ids.json' successfully downloaded
+2020-11-22 10:41:00 INFO ID ALIAS MAPPER: 'subscriber_ids.json' successfully downloaded
+2020-11-22 10:41:00 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2020-11-22 10:41:02 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2020-11-22 10:41:02 INFO ID ALIAS MAPPER: local_subscriber_ids added to subscriber_ids dictionary
+2020-11-22 10:41:02 INFO ID ALIAS MAPPER: local_peer_ids added peer_ids dictionary
+2020-11-22 10:41:05 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory object at 0x7fd8d099e8b0>
+2020-11-22 10:41:05 INFO Initiating Connection to Server.
+2020-11-22 10:41:05 INFO Connected.
+2020-11-22 10:41:05 INFO Resetting reconnection delay
+2020-11-22 10:41:41 INFO Lost connection.  Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]

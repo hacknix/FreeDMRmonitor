@@ -606,7 +606,7 @@ def process_message(_bmessage):
         opbfilter = get_opbf()
         if p[0] == 'GROUP VOICE' and p[2] != 'TX' and p[5] not in opbfilter:
             if p[1] == 'END':
-
+                _matchsystem = False
                 if (int(p[8]) == 9) and (int(p[7]) == 2) and BRIDGES:
                     for _bridge in BRIDGES:
                         for _bridgesystem in BRIDGES[_bridge]:
@@ -614,7 +614,10 @@ def process_message(_bmessage):
                                 _refdest = str(_bridge[1:])
                                 print(_refdest)
                                 log_message = '{} {} {}   SYS: {:8.8s} SRC: {:9.9s}; {:9.9s} TS: {} TGID: {:7.7s} {:17.17s} SUB: {:9.9s}; {:18.18s} Time: {}s '.format(_now[10:19], p[0][6:], p[1], p[3], p[5], alias_call(int(p[5]), subscriber_ids), p[7],_refdest,alias_tgid(int(_refdest),talkgroup_ids)+" (RW: 9)", p[6], alias_short(int(p[6]), subscriber_ids), int(float(p[9])))
-                else:
+                                _matchsystem = True
+                                
+                #If we didn't get a match, use default            
+                if _matchsystem == False:
                     log_message = '{} {} {}   SYS: {:8.8s} SRC: {:9.9s}; {:9.9s} TS: {} TGID: {:7.7s} {:17.17s} SUB: {:9.9s}; {:18.18s} Time: {}s '.format(_now[10:19], p[0][6:], p[1], p[3], p[5], alias_call(int(p[5]), subscriber_ids), p[7],p[8],alias_tgid(int(p[8]),talkgroup_ids), p[6], alias_short(int(p[6]), subscriber_ids), int(float(p[9])))
                 # log only to file if system is NOT OpenBridge event (not logging open bridge system, name depends on your OB definitions) AND transmit time is LONGER as 2sec (make sense for very short transmits)
                 if LASTHEARD_INC:
